@@ -1,0 +1,32 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: auto;
+
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bg {
+  background: linear-gradient(90deg, #0e1721 0%, #21232e 100%), url('../../assets/img/background/universe.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  box-shadow: inset;
+
+  height: auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.box-skills {
+  width: 80%;
+  height: 80%;
+  justify-self: center;
+}
+

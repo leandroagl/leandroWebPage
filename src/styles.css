@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: linear-gradient(90deg, #2B5876 0%, #4E4376 100%);
+  box-sizing: border-box;
+}
+
+/* bungee-shade-regular - latin */
+/* bungee-shade-regular - latin */
+@font-face {
+  font-family: 'Bungee Shade';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./assets/fonts/bungee-shade-v11-latin-regular.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./assets/fonts/bungee-shade-v11-latin-regular.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

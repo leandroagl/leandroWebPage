@@ -1,0 +1,224 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 10% 15% 15% 15% 15% 15% 15%;
+
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  margin: 0 auto;
+}
+
+.header-skills {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  grid-column: 1 / 5;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2rem;
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+p {
+  margin-right: 2rem;
+}
+
+hr {
+  border: 1px solid #959595;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
+  transform: rotate(-0.08deg);
+}
+
+.winserver {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  width: 180px;
+  height: 140px;
+  left: 186px;
+  top: 1851px;
+  align-self: center;
+  justify-self: center;
+
+  mix-blend-mode: multiply;
+}
+
+.exchange {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 120px;
+  height: 50px;
+  align-self: center;
+  justify-self: center;
+
+  mix-blend-mode: multiply;
+}
+
+.mikrotik {
+  width: 160px;
+  height: 160px;
+  align-self: center;
+  justify-self: center;
+
+  mix-blend-mode: multiply;
+}
+
+.vmware {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  width: 110px;
+  height: 55px;
+  align-self: center;
+  justify-self: center;
+}
+
+.prtg {
+  width: 80px;
+  height: 60px;
+  align-self: center;
+  justify-self: center;
+}
+
+.hyperv {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  width: 140px;
+  height: 80px;
+  align-self: center;
+  justify-self: center;
+
+  mix-blend-mode: multiply;
+}
+
+.azure {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  align-self: center;
+  justify-self: center;
+  width: 180px;
+  height: 160px;
+}
+
+.veeam {
+  width: 100px;
+  height: 130px;
+  align-self: center;
+  justify-self: center;
+}
+
+.pfsense {
+  width: 150px;
+  height: 45px;
+  align-self: center;
+  justify-self: center;
+
+  mix-blend-mode: multiply;
+}
+
+.qnap {
+  width: 221px;
+  height: 211px;
+  align-self: center;
+  justify-self: center;
+}
+
+.office {
+  width: 80px;
+  height: 90px;
+  align-self: center;
+  justify-self: center;
+  mix-blend-mode: multiply;
+}
+
+.gsuite {
+  width: 140px;
+  height: 140px;
+  align-self: center;
+  justify-self: center;
+}
+
+.angular {
+  width: 60px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.js {
+  width: 55px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.css {
+  width: 55px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.html {
+  width: 35px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.ts {
+  width: 65px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.node {
+  width: 75px;
+  height: 75px;
+  align-self: center;
+  justify-self: center;
+}
+
+.mongo {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  justify-self: center;
+}
+
+.firebase {
+  width: 160px;
+  height: 170px;
+  align-self: center;
+  justify-self: center;
+}
+
+.git {
+  width: 80px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.linux {
+  width: 65px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.bootstrap {
+  width: 65px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.postman {
+  width: 65px;
+  height: 65px;
+  align-self: center;
+  justify-self: center;
+}

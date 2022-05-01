@@ -1,0 +1,12 @@
+.nav {
+  background: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: overlay;
+  box-shadow: 3px 3px 3px;
+}
+
+.nav-item .nav-link {
+  margin-left: 40px;
+  margin-right: 20px;
+  color: rgb(255 255 255);
+  font-size: 16px;
+}
