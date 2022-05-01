@@ -7,13 +7,18 @@
   margin: 0 auto;
 }
 
-.bg {
-  background: linear-gradient(90deg, #0e1721 0%, #21232e 100%), url('../../assets/img/background/universe.jpg');
+.bg{
+  filter: blur(1px);
+  --opacidad-negro: 0.6;
+  background: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url('../../assets/img/background/universe.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  box-shadow: inset;
+
+  box-shadow: 0 12rem 12rem 0 rgba(0, 0, 0, 0.86);
+
+  margin-bottom: 6rem;
 
   height: auto;
 }
