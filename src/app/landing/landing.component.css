@@ -24,7 +24,7 @@
       rgba(0, 0, 0, var(--opacidad-negro)),
       rgba(0, 0, 0, var(--opacidad-negro))
     ),
-    url("../../assets/img/background/universe2.jpg");
+    url("../../assets/img/background/4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
