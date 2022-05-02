@@ -1,20 +1,22 @@
 <div class="grid-layout">
-  <div class="bg">
-    <app-navbar></app-navbar>
-    <!-- Presentación y background-->
-    <div  fxLayout="column" fxLayoutAlign="center center">
-      <app-presentacion-name class="box"></app-presentacion-name>
+  <div class="bg bg-filter">
+    <div fxLayout="row" fxLayoutAlign="end">
+      <app-navbar class="box"></app-navbar>
     </div>
 
+    <!-- Presentación y background-->
+    <div fxLayout="column" fxLayoutAlign="center center">
+      <app-presentacion-name class="box"></app-presentacion-name>
+    </div>
   </div>
 
-  <app-about class="box"></app-about>
+  <app-about class="box" id="about"></app-about>
 
-  <div class="box-skills">
+  <div class="box-skills" id="skills">
     <app-skills></app-skills>
   </div>
 
-  <app-trabajos class="box"></app-trabajos>
+  <app-trabajos class="box" id="trabajos"></app-trabajos>
 
-  <app-contacto class="box"></app-contacto>
+  <app-contacto class="box" id="contacto"></app-contacto>
 </div>

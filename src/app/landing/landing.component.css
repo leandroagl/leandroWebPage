@@ -7,23 +7,39 @@
   margin: 0 auto;
 }
 
-.bg{
-  filter: blur(1px);
+.bg-filter::after {
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.bg {
   --opacidad-negro: 0.6;
-  background: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url('../../assets/img/background/universe.jpg');
+  background: linear-gradient(
+      rgba(0, 0, 0, var(--opacidad-negro)),
+      rgba(0, 0, 0, var(--opacidad-negro))
+    ),
+    url("../../assets/img/background/universe2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 
-  box-shadow: 0 12rem 12rem 0 rgba(0, 0, 0, 0.86);
+  box-shadow: 0 4rem 4rem 0 rgba(0, 0, 0, 0.485);
 
+  border-bottom: 01px solid cyan;
   margin-bottom: 6rem;
-
   height: auto;
 }
 
 .box {
+  position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -34,4 +50,3 @@
   height: 80%;
   justify-self: center;
 }
-
