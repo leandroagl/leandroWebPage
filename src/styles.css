@@ -1,6 +1,8 @@
 body {
-  background: linear-gradient(90deg, #0e1721 0%, #21232e 100%);
-  box-sizing: border-box;
+  /* background: linear-gradient(90deg, #0e1721 0%, #21232e 100%);
+
+  box-sizing: border-box; */
+  background-color: black;
 }
 
 /* bungee-shade-regular - latin */

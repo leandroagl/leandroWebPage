@@ -1,6 +1,7 @@
 .grid-layout {
   display: grid;
   grid-template-columns: 100%;
+  background-color: rgba(143, 157, 172, 0.3);
 
 }
 
@@ -17,6 +18,7 @@
 }
 
 .header {
+  margin-top: 3rem;
   margin-left: 3rem;
 }
 

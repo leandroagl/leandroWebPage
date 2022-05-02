@@ -1,3 +1,4 @@
+
 .grid-layout {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -5,7 +6,9 @@
 
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+
+  background: linear-gradient(to bottom, rgba(68, 92, 117, 0.053), rgba(120, 124, 133, 0.175));
+  border-bottom: 01px solid rgba(0, 191, 255, 0.405);
 }
 
 .box {
@@ -16,6 +19,7 @@
 
 .header {
   margin-left: 3rem;
+  margin-top: 12rem;
 }
 
 .header-about {
@@ -39,19 +43,20 @@
 }
 
 .foto {
+  margin-top: 6rem;
   margin-left: 4rem;
   margin-right: 4rem;
   margin-bottom: 4rem;
   width: 350px;
   height: 280px;
   box-shadow: #26d4ff69 0px 3px 8px;
-  border-radius: 80px;
+  border-radius: 20px;
 }
 
 .text-about {
   max-width: 48rem;
   min-width: 32rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: 400;

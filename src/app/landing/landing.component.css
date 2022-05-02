@@ -23,8 +23,8 @@
   background: linear-gradient(
       rgba(0, 0, 0, var(--opacidad-negro)),
       rgba(0, 0, 0, var(--opacidad-negro))
-    ),
-    url("../../assets/img/background/4.png");
+    ), linear-gradient(to top, rgba(0, 0, 0, 0.912), rgba(118, 182, 251, 0.357)),
+    url("../../assets/img/background/universe2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -32,10 +32,11 @@
 
   box-shadow: 0 4rem 4rem 0 rgba(0, 0, 0, 0.485);
 
-  border-bottom: 01px solid cyan;
   margin-bottom: 6rem;
   height: auto;
 }
+
+
 
 .box {
   position: relative;
@@ -46,7 +47,7 @@
 }
 
 .box-skills {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   justify-self: center;
 }
