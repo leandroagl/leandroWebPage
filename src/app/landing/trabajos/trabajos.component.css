@@ -1,7 +1,7 @@
 .grid-layout {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 10rem auto;
+  grid-template-rows: auto auto;
 
   width: 100%;
   height: 100%;
@@ -10,43 +10,20 @@
   border-bottom: 01px solid rgba(0, 191, 255, 0.405);
 }
 
-.trabajos-header {
-  grid-column: 1 / 5;
-  margin-top: 4rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
-
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 2rem;
-  letter-spacing: 0.4px;
-
-  color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
-}
-
 .header {
-  margin-left: 3rem;
-}
-
-hr {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.61);
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(95, 215, 255, 0.842),
-    rgba(109, 214, 253, 0.144),
-    rgba(95, 215, 255, 0.842)
-  );
+  grid-column: 2 / 3;
 }
 
 .authApp {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   justify-self: center;
   align-self: center;
 }
 
 .adminTech {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
   justify-self: center;
   align-self: center;
 }

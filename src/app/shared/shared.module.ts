@@ -3,12 +3,14 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { DividerComponent } from './divider/divider.component';
 
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    DividerComponent
   ],
   imports: [
     CommonModule,
@@ -16,7 +18,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FlexLayoutModule
   ],
   exports: [
-    NavbarComponent
+    NavbarComponent,
+    DividerComponent
   ]
 })
 export class SharedModule { }

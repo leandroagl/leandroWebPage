@@ -19,7 +19,6 @@ import { LandingModule } from './landing/landing.module';
     NgbModule,
     AppRoutingModule,
     LandingModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
