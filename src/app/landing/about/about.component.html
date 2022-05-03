@@ -1,25 +1,51 @@
 <div class="grid-layout">
-  <!-- <div class="header-about">
-    <p class="header">Acerca de mi</p>
-    <hr />
-  </div> -->
-  <app-divider [sectionHeader]="'Acerca de mi'"></app-divider>
+  <div class="header" fxLayout="row" fxLayoutAlign="center center">
+    <app-divider [sectionHeader]="'Acerca de mi'"></app-divider>
+  </div>
 
   <div
+    class="datos"
     fxLayout="row"
-    fxLayoutAlign="space-evenly center"
-    fxLayout.sm="column"
-    fxLayout.xs="column"
     fxLayout.md="column"
+    fxLayoutAlign="space-evenly center"
   >
+    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+      <i class="bi bi-person-badge"></i>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+        voluptates nesciunt eaque quod, veritatis minus accusamus sed dolorum
+        excepturi animi est!
+      </p>
+    </div>
+
+    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+      <i class="bi bi-geo-alt"></i>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
+        consectetur excepturi amet dolore? Voluptatem corporis amet eveniet
+        sequi consequuntur nemo quas tenetur sit perferendis odit, magnam quis
+        natus eum?
+      </p>
+    </div>
+
+    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+      <i class="bi bi-boombox"></i>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
+      consectetur excepturi amet dolore? Voluptatem corporis amet eveniet sequi
+      consequuntur nemo quas tenetur sit perferendis odit, magnam quis natus
+      eum?
+    </div>
+  </div>
+
+  <div fxLayout="column" fxLayoutAlign="center center">
     <img src="../../../assets/img/perfil/perfil.jpg" class="foto" />
     <div class="text-about">
       <p>
-        Soy Administrador de Infraestructura y Desarrollador Web, actualmente
-        vivo en Buenos Aires, Argentina. Apasionado por la programación y el
-        networking, dispuesto a sumergirme en mas conocimientos para mejorar mi
-        perfil profesional y asi aportar valor a los productos en los que pueda
-        participar.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab, alias
+        nam itaque debitis dolorem dolores nobis aliquid quia porro eum eius
+        eaque, distinctio perferendis doloremque voluptatem provident culpa
+        impedit.
       </p>
     </div>
   </div>
