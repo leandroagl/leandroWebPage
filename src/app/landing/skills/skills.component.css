@@ -1,16 +1,6 @@
-img {
-  width: 450px;
-}
-
-.icon {
-  width: 60px;
-  mix-blend-mode:multiply
-}
 
 .grid-layout {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 10% 15% 15% 15% 15% 15% 15%;
 
   background-color: rgba(143, 157, 172, 0.3);
   width: 100%;
@@ -20,16 +10,43 @@ img {
   border-bottom: 01px solid rgba(0, 191, 255, 0.405);
 }
 
-.header {
-  grid-column: 1 / 5;
-}
 
 .card {
-  background: linear-gradient(90deg, #2b5876 0%, #4e4376 100%);
-  width: auto;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 1000px;
   height: auto;
+  border-radius: 10px;
+  --color-shadow: #0000009e;
+  box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -webkit-box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -moz-box-shadow: 1px 4px 7px 3px var(--color-shadow);
 }
 
+
+
+.img-card {
+  background: url('../../../assets/img/trabajos/datacenter.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: auto;
+  height: 430px;
+}
+
+
+.icon {
+  width: 100px;
+  margin-right: 40px;
+  mix-blend-mode:multiply;
+  justify-self: center;
+}
 /* .winserver {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
