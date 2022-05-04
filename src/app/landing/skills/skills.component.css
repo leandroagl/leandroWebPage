@@ -17,7 +17,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  width: 1000px;
+  width: 35rem;
   height: auto;
   border-radius: 10px;
   --color-shadow: #0000009e;
@@ -28,16 +28,16 @@
 
 
 
-.img-card {
+.card-img-top {
   background: url('../../../assets/img/trabajos/datacenter.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: static;
   background-size: cover;
   border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
   width: auto;
-  height: 430px;
+  height: 20rem;
 }
 
 
