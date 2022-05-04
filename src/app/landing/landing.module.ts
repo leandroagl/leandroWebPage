@@ -8,6 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { TrabajosComponent } from './trabajos/trabajos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ExperienceComponent } from './about/experience/experience.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     SkillsComponent,
     TrabajosComponent,
     ContactoComponent,
+    ExperienceComponent,
   ],
   imports: [
     CommonModule,
