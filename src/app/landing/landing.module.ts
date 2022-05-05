@@ -10,6 +10,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ExperienceComponent } from './about/experience/experience.component';
 import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { CardComponent } from './trabajos/card/card.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
     TrabajosComponent,
     ContactoComponent,
     ExperienceComponent,
+    CardComponent,
   ],
   imports: [
     CommonModule,

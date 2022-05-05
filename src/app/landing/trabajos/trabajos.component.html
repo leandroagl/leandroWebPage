@@ -1,74 +1,39 @@
 <div class="grid-layout">
 
-  <div class="header" fxLayout="column" fxLayouAlign="center center">
+  <div class="header" fxLayout="column" fxLayoutAlign="center center">
     <app-divider [sectionHeader]="'Trabajos y prácticas'"></app-divider>
   </div>
 
-    <!-- Card AuthApp -->
-    <div class="authApp">
-      <div class="card" style="width: 18rem; height: 27rem;">
-        <img
-          src="../../../assets/img/apps/authApp.PNG"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Auth App</h5>
-          <p class="card-text">
-            Aplicación de autenticación y registro desarrollada en Angular y
-            utilizando MongoDB
-          </p>
-          <div class="btnAuthApp">
+   <!-- Card -->
+    <div  fxLayout="row" fxLayoutAlign="space-evenly center">
 
-            <a
-              href="https://angualr-auth-frontback.herokuapp.com/auth/login"
-              target="_blank"
-              class="btn btn-primary"
-              >Ir a la App!</a
-            >
-          </div>
+      <!-- <div class="card bg-dark card-img" >
+
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">Last updated 3 mins ago</p>
         </div>
       </div>
-    </div>
+    </div> -->
 
+    <app-card
 
-    <!-- Card AdminTech -->
-    <div class="adminTech">
-      <div class="card" style="width: 18rem">
-        <img
-          src="../../../assets/img/apps/adminTech.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">AdminTech</h5>
-          <p class="card-text">
-            Es una aplicacion que se encuentra en desarollo, diseñada para ser
-            utilizada en un ambiente de mesa de ayuda, cuenta con una agenda de contactos,
-            acceso a base de conocimientos, carga de remisiones por técnico y acceso
-            a servicios web que la empresa administre.
-          </p>
+    [cardTitle]="'Tarjeta1'"
+    [cardText]="'Esta seria la tarjeta 1'"
+    ></app-card>
 
-          <div class="button" fxLayout="row">
-            <a
-              href="#"
-              target="_blank"
-              class="btn btn-primary disabled"
-              >Ir a la App!</a
-            >
-            <!-- GitIcon -->
-            <div class="git-icon">
-              <a
-                href="#"
-                target="_blank"
-                ><img src="../../../assets/img/logos/image 26.png" class="git-img"></a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <app-card
 
+    [cardTitle]="'Tarjeta 2'"
+    [cardText]="'Por aca tendriamos la 2'"
+    ></app-card>
+
+    <app-card
+
+    [cardTitle]="'Tarjeta3'"
+    [cardText]="'Por aca tendriamos la 3'"
+    ></app-card>
 
 
 
