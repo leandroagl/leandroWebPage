@@ -5,6 +5,10 @@
 
 }
 
+.header {
+  margin-top: 50px;
+}
+
 img {
   width: 40px;
 }
@@ -15,6 +19,11 @@ img {
   align-self: center;
   margin-top: 3rem;
 }
+
+.contacto-box {
+  margin-left: 300px;
+}
+
 
 .linkedin {
   margin-right: 15px;

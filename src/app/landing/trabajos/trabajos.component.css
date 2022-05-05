@@ -4,8 +4,13 @@
   width: 100%;
   height: 100%;
   margin-bottom: 8rem;
-  background: rgba(230, 230, 230, 0.175);
+  background-color: rgb(37, 41, 59);
   border-bottom: 01px solid rgba(0, 191, 255, 0.405);
+}
+
+.header {
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .header-text {
@@ -13,6 +18,10 @@
   color: white;
   text-align: center;
   margin-top: 30px;
+}
+
+.cards-group {
+  margin-bottom: 150px;
 }
 
 .card {

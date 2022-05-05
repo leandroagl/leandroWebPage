@@ -1,6 +1,9 @@
 <div class="grid-layout">
 
-  <app-divider [sectionHeader]="'Contacto'"></app-divider>
+  <div class="header">
+    <app-divider [sectionHeader]="'Contacto'"></app-divider>
+
+  </div>
 
   <div fxLayout="row" fxLayoutAlign="center center">
     <!-- Linkedin -->
@@ -27,23 +30,31 @@
 </a> -->
 
   <!-- Formulario -->
-  <div class="contacto-form">
-    <div class="mb-3">
-      <input type="text" class="form-control" placeholder="Nombre" />
-    </div>
-    <div class="mb-3">
-      <input type="email" class="form-control" placeholder="Email" />
-    </div>
-    <div class="mb-3">
-      <textarea
-        class="form-control"
-        rows="6"
-        placeholder="Motivo del contacto.."
-      ></textarea>
-    </div>
-  </div>
 
-  <div class="btnForm">
-    <button type="button" class="btn btn-primary">Enviar!</button>
+  <div class="contacto-box" fxLayout="row" fxLayoutAlign="start center">
+
+    <div fxLayout="column">
+
+      <div class="contacto-form">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Nombre" />
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            rows="6"
+            placeholder="Motivo del contacto.."
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="btnForm">
+        <button type="button" class="btn btn-primary">Enviar!</button>
+      </div>
+    </div>
+
+    </div>
   </div>
-</div>
