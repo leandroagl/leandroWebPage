@@ -1,23 +1,25 @@
-
 .grid-layout {
   display: grid;
 
   background-color: rgba(143, 157, 172, 0.3);
   width: 100%;
   height: 100%;
-  text-align: end;
   margin-bottom: 0 auto;
   border-bottom: 01px solid rgba(0, 191, 255, 0.405);
 }
 
+.dev {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
 .card {
-  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  width: 35rem;
+  max-width: 40rem;
   height: auto;
   border-radius: 10px;
   --color-shadow: #0000009e;
@@ -28,184 +30,71 @@
 
 
 
-.card-img-top {
-  background: url('../../../assets/img/trabajos/datacenter.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: static;
-  background-size: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: auto;
-  height: 20rem;
-}
-
-
 .icon {
   width: 100px;
   margin-right: 40px;
-  mix-blend-mode:multiply;
-  justify-self: center;
-}
-/* .winserver {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-
-  left: 186px;
-  top: 1851px;
-  align-self: center;
-  justify-self: center;
-
+  margin-left: 25px;
   mix-blend-mode: multiply;
-}
-
-.exchange {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-    align-self: center;
-  justify-self: center;
-
-  mix-blend-mode: multiply;
-}
-
-.mikrotik {
-
-  align-self: center;
-  justify-self: center;
-
-  mix-blend-mode: multiply;
-}
-
-.vmware {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
-    align-self: center;
-  justify-self: center;
-}
-
-.prtg {
-
-  align-self: center;
-  justify-self: center;
-}
-
-.hyperv {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-    align-self: center;
-  justify-self: center;
-
-  mix-blend-mode: multiply;
-}
-
-.azure {
-  grid-column: 4 / 5;
-  grid-row: 2 / 3;
-  align-self: center;
-  justify-self: center;
-
-}
-
-.veeam {
-
-  align-self: center;
-  justify-self: center;
-}
-
-.pfsense {
-    align-self: center;
-  justify-self: center;
-
-  mix-blend-mode: multiply;
-}
-
-.qnap {
-
-  align-self: center;
-  justify-self: center;
-}
-
-.office {
-
-  align-self: center;
-  justify-self: center;
-  mix-blend-mode: multiply;
-}
-
-.gsuite {
-
-  align-self: center;
   justify-self: center;
 }
 
 .angular {
-
+  width: 55px;
   align-self: center;
   justify-self: center;
 }
 
 .js {
-
+  width: 55px;
   align-self: center;
   justify-self: center;
 }
 
 .css {
-
+  width: 55px;
   align-self: center;
   justify-self: center;
 }
 
 .html {
-
+  width: 60px;
   align-self: center;
   justify-self: center;
 }
 
 .ts {
-
-  align-self: center;
-  justify-self: center;
-}
-
-.node {
-
-  align-self: center;
-  justify-self: center;
-}
-
-.mongo {
-
-  align-self: center;
-  justify-self: center;
-}
-
-.firebase {
-
+  width: 45px;
   align-self: center;
   justify-self: center;
 }
 
 .git {
-
-  align-self: center;
-  justify-self: center;
-}
-
-.linux {
-
+  width: 80px;
   align-self: center;
   justify-self: center;
 }
 
 .bootstrap {
-
+  width: 70px;
   align-self: center;
   justify-self: center;
 }
 
 .postman {
-
+  width: 60px;
   align-self: center;
   justify-self: center;
-} */
+}
+
+.linux {
+  width: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.office {
+  width: 75px;
+  align-self: center;
+  justify-self: center;
+  mix-blend-mode: multiply;
+}
