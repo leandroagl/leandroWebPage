@@ -9,6 +9,7 @@ import { TrabajosComponent } from './trabajos/trabajos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ExperienceComponent } from './about/experience/experience.component';
+import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -24,7 +25,9 @@ import { ExperienceComponent } from './about/experience/experience.component';
   imports: [
     CommonModule,
     SharedModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    NgbNavModule,
+    NgbAlertModule
   ]
 })
 export class LandingModule { }
