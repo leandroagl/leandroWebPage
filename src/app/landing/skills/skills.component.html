@@ -3,8 +3,42 @@
     <app-divider [sectionHeader]="'Skills'"></app-divider>
   </div>
 
-  <div class="card">
+  <div
+  class="datos"
+  fxLayout="row"
+  fxLayout.md="column"
+  fxLayout.sm="column"
+  fxLayout.xs="column"
+  fxLayoutAlign="space-evenly start"
+  fxLayoutAlign.md="center center"
+  fxLayoutAlign.sm="center center"
+  fxLayoutAlign.xs="center center"
+>
+  <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+    <i class="bi bi-person-badge"></i>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
+      consectetur
+    </p>
+  </div>
 
+  <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+    <i class="bi bi-geo-alt"></i>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
+      consectetur
+    </p>
+  </div>
+
+  <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+    <i class="bi bi-boombox"></i>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
+    consectetur excepturi amet dolore?
+  </div>
+</div>
+
+
+  <div class="card">
     <ul ngbNav #nav="ngbNav" [destroyOnHide]="false" class="nav-tabs">
 
       <!-- Tab Devs -->
@@ -102,9 +136,9 @@
           </div>
         </ng-template>
       </li>
-
-
     </ul>
+
+
 
     <div [ngbNavOutlet]="nav" class="mt-2"></div>
   </div>

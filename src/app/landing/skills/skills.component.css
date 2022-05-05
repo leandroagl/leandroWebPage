@@ -14,12 +14,12 @@
 }
 
 .card {
-
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   max-width: 40rem;
+  margin-top: 7rem;
   height: auto;
   border-radius: 10px;
   --color-shadow: #0000009e;
@@ -97,4 +97,19 @@
   align-self: center;
   justify-self: center;
   mix-blend-mode: multiply;
+}
+
+.datos {
+  margin-top: 40px;
+}
+
+.perfil {
+  color: white;
+  width: 20rem;
+  text-align: center;
+}
+
+.bi {
+  font-size: 4rem;
+  color: #ffffff;
 }
