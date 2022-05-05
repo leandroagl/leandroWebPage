@@ -1,4 +1,5 @@
 .grid-layout {
+  padding: 0;
   display: grid;
   grid-template-columns: auto;
 
@@ -42,6 +43,11 @@
   width: 100%;
   height: 100%;
   justify-content: center;
+}
+
+.box-navbar {
+  position: fixed;
+  z-index: 100;
 }
 
 
