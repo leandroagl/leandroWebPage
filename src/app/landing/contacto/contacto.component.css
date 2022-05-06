@@ -2,44 +2,33 @@
   display: grid;
   grid-template-columns: 100%;
   background-color: rgba(143, 157, 172, 0.3);
-
 }
 
 .header {
   margin-top: 50px;
-}
-
-img {
-  width: 40px;
-}
-
-.contacto-form {
-  width: 20rem;
-  justify-self: center;
-  align-self: center;
-  margin-top: 3rem;
-}
-
-.contacto-box {
-  margin-left: 300px;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.684);
 }
 
 
-.linkedin {
-  margin-right: 15px;
+.iconos {
+  font-size: 30px;
 }
 
 .git {
-  margin-left: 15px;
+  color: black;
+}
+
+.wp {
+  color: rgb(75, 158, 86);
+}
+
+.datos {
+  color: rgba(255, 255, 255, 0.684);
+  font-size: 13px;
+  margin-right: 80px;
 }
 
 
-.btnForm {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 9px;
 
-  border-radius: 3.2px;
-}
+

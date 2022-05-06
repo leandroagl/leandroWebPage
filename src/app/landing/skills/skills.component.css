@@ -18,10 +18,6 @@
 }
 
 .card {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
   max-width: 40rem;
   margin-top: 7rem;
   margin-bottom: 80px;

@@ -1,27 +1,6 @@
 <div class="grid-layout">
-
   <div class="header">
     <app-divider [sectionHeader]="'Contacto'"></app-divider>
-
-  </div>
-
-  <div fxLayout="row" fxLayoutAlign="center center">
-    <!-- Linkedin -->
-    <div class="linkedin">
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/leandro-aguilera-63897a4a/"
-      >
-        <img src="../../../assets/img/logos/linkedin.png" class="linkedin" />
-      </a>
-    </div>
-
-    <!-- Git -->
-    <div class="git">
-      <a target="_blank" href="https://github.com/leandroagl">
-        <img src="../../../assets/img/logos/git.png" class="git" />
-      </a>
-    </div>
   </div>
 
   <!-- Facebook -->
@@ -29,32 +8,44 @@
   <img src="../../../assets/img/logos/facebook.png" class="facebook" />
 </a> -->
 
-  <!-- Formulario -->
-
-  <div class="contacto-box" fxLayout="row" fxLayoutAlign="start center">
-
-    <div fxLayout="column">
-
-      <div class="contacto-form">
-        <div class="mb-3">
-          <input type="text" class="form-control" placeholder="Nombre" />
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" placeholder="Email" />
-        </div>
-        <div class="mb-3">
-          <textarea
-            class="form-control"
-            rows="6"
-            placeholder="Motivo del contacto.."
-          ></textarea>
-        </div>
-      </div>
-
-      <div class="btnForm">
-        <button type="button" class="btn btn-primary">Enviar!</button>
-      </div>
+  <div fxLayout="row" fxLayoutAlign="center center" class="mb-4">
+    <div class="datos" fxLayout="column" fxLayoutAlign="start">
+      <p>Email: leandro.n.aguilera@gmail.com</p>
+      <p>Dirección: Ramos Mejía, Buenos Aires, Argentina.</p>
     </div>
+
+    <div fxLayout="row" fxLayoutAlign="space-around center" class="iconos">
+      <!-- Linkedin -->
+      <div class="iconos linkedin">
+        <a
+          target="_blank"
+          class="bi bi-linkedin"
+          href="https://www.linkedin.com/in/leandro-aguilera-63897a4a/"
+        >
+        </a>
+      </div>
+
+      <!-- Git -->
+      <div class="ml-4 iconos git">
+        <a
+          target="_blank"
+          class="bi bi-github git"
+          href="https://github.com/leandroagl"
+        >
+        </a>
+      </div>
+
+       <!-- WhatsApp -->
+       <div class="ml-4 iconos">
+        <a
+          target="_blank"
+          class="bi bi-whatsapp wp"
+          href="https://www.linkedin.com/in/leandro-aguilera-63897a4a/"
+        >
+        </a>
+      </div>
+
 
     </div>
   </div>
+</div>
