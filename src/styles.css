@@ -15,3 +15,10 @@ body {
        url('./assets/fonts/bungee-shade-v11-latin-regular.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('./assets/fonts/bungee-shade-v11-latin-regular.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+.card {
+  --color-shadow: #0000009e;
+  box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -webkit-box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -moz-box-shadow: 1px 4px 7px 3px var(--color-shadow);
+}
