@@ -1,12 +1,7 @@
 .grid-layout {
   display: grid;
   grid-template-columns: 100%;
-  background-color: rgba(143, 157, 172, 0.3);
-}
-
-.header {
-  margin-top: 50px;
-  margin-bottom: 15px;
+  background: #222222;
   color: rgba(255, 255, 255, 0.684);
 }
 
