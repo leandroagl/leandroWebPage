@@ -3,52 +3,35 @@
     <app-divider [sectionHeader]="'Acerca de mi'"></app-divider>
   </div>
 
-  <div
-    class="datos"
-    fxLayout="row"
-    fxLayout.sm="column"
-    fxLayout.xs="column"
-    fxLayoutAlign="space-evenly start"
-    fxLayoutAlign.md="center center"
-    fxLayoutAlign.sm="center center"
-    fxLayoutAlign.xs="center center"
-  >
-    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
-      <i class="bi bi-person-badge"></i>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
-        consectetur
-      </p>
+  <div class="datos" fxLayout="column" fxLayoutAlign="space-evenly center">
+    <!-- Iconos de perfil -->
+    <app-perfil-icon-text
+      [iconClass1]="'bi bi-person-badge'"
+      [iconClass2]="'bi bi-geo-alt'"
+      [iconClass3]="'bi bi-boombox'"
+      [iconText1]="'Texto de prueba1'"
+      [iconText2]="'Texto de prueba2'"
+      [iconText3]="'Texto de prueba3'"
+    ></app-perfil-icon-text>
+
+    <!-- Foto -->
+    <div fxLayout="column" fxLayoutAlign="center center">
+      <img src="../../../assets/img/perfil/perfil.jpg" class="foto" />
+      <div class="text-about">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab,
+          alias nam itaque debitis dolorem dolores nobis aliquid quia porro eum
+          eius eaque, distinctio perferendis doloremque voluptatem provident
+          culpa impedit.
+        </p>
+      </div>
     </div>
 
-    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
-      <i class="bi bi-geo-alt"></i>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
-        consectetur
-      </p>
-    </div>
-
-    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
-      <i class="bi bi-boombox"></i>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro explicabo
-      consectetur excepturi amet dolore?
-    </div>
-  </div>
-
-  <div fxLayout="column" fxLayoutAlign="center center">
-    <img src="../../../assets/img/perfil/perfil.jpg" class="foto" />
-    <div class="text-about">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab, alias
-        nam itaque debitis dolorem dolores nobis aliquid quia porro eum eius
-        eaque, distinctio perferendis doloremque voluptatem provident culpa
-        impedit.
-      </p>
-    </div>
+    <!-- Experiencias -->
   </div>
 
   <div class="exp">
-    <app-experience></app-experience>
+    <app-experience ></app-experience>
   </div>
 </div>
+
