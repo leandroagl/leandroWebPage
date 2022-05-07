@@ -11,6 +11,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { ExperienceComponent } from './about/experience/experience.component';
 import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CardComponent } from './trabajos/card/card.component';
+import { CardSkillsComponent } from './skills/card-skills/card-skills.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { CardComponent } from './trabajos/card/card.component';
     ContactoComponent,
     ExperienceComponent,
     CardComponent,
+    CardSkillsComponent,
   ],
   imports: [
     CommonModule,
