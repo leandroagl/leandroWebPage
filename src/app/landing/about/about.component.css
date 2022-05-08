@@ -1,74 +1,58 @@
 .grid-layout {
   display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 25% 75%;
 
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+
+  color: white;
+  background: linear-gradient(to bottom, rgba(68, 92, 117, 0.053), #0F344C);
 }
 
-.box {
-  width: auto;
-  height: auto;
-  border: 2px solid black;
+.datos {
+  margin-top: 40px;
 }
 
-.header {
-  margin-left: 3rem;
+.perfil {
+  width: 20rem;
+  text-align: center;
 }
 
-.header-about {
-  margin-left: 6rem;
-  margin-right: 6rem;
-  grid-column: 1 / 3;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 2rem;
-  letter-spacing: 0.4px;
-
+.bi {
+  font-size: 4rem;
   color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
 }
-
-.b-about {
-  margin-left: 2rem;
-  margin-right: 6rem;
-  grid-column: 1 / 3;
-  margin-top: 1rem;
-}
-
 
 .foto {
+  margin-top: 6rem;
   margin-left: 4rem;
   margin-right: 4rem;
-  margin-bottom: 4rem;
   width: 350px;
   height: 280px;
-  box-shadow: #26d4ff69 0px 3px 8px;
-  border-radius: 80px;
+  border-radius: 10px;
+  --color-shadow: #0000009e;
+  box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -webkit-box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -moz-box-shadow: 1px 4px 7px 3px var(--color-shadow);
 }
 
 .text-about {
-  max-width: 48rem;
-  min-width: 32rem;
+  width: 800px;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 2rem;
-
-  color: #ffffff;
+  font-family: "Nunito";
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
 }
 
-
-hr {
-  border: 1px solid #959595;
-  grid-column: 1 / 3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
-  transform: rotate(-0.08deg);
+.exp {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
+
+
 
 

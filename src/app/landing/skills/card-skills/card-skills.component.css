@@ -1,0 +1,68 @@
+.card {
+  max-width: 43rem;
+  margin-top: 7rem;
+  margin-bottom: 80px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background: #bfced9;
+  font-family: "Nunito";
+}
+
+.icon {
+  width: 100px;
+  margin-right: 40px;
+  margin-left: 25px;
+  justify-self: center;
+}
+
+.size-55 {
+  width: 55px;
+  align-self: center;
+  justify-self: center;
+}
+
+.size-60 {
+  width: 60px;
+  align-self: center;
+  justify-self: center;
+}
+
+
+.ts {
+  width: 45px;
+  align-self: center;
+  justify-self: center;
+}
+
+.winserver {
+  width: 140px;
+  align-self: center;
+  justify-self: center;
+}
+
+.git {
+  width: 80px;
+  align-self: center;
+  justify-self: center;
+}
+
+.bootstrap {
+  width: 70px;
+  align-self: center;
+  justify-self: center;
+}
+
+
+.linux {
+  width: 65px;
+  align-self: center;
+  justify-self: center;
+}
+
+.office {
+  width: 75px;
+  align-self: center;
+  justify-self: center;
+  mix-blend-mode: multiply;
+}

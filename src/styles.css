@@ -1,10 +1,7 @@
 body {
-  background: linear-gradient(90deg, #2B5876 0%, #4E4376 100%);
-  box-sizing: border-box;
+  background-color: black;
 }
 
-/* bungee-shade-regular - latin */
-/* bungee-shade-regular - latin */
 @font-face {
   font-family: 'Bungee Shade';
   font-style: normal;
@@ -12,4 +9,29 @@ body {
   src: local(''),
        url('./assets/fonts/bungee-shade-v11-latin-regular.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('./assets/fonts/bungee-shade-v11-latin-regular.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Source Code';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+
+
+.card {
+  --color-shadow: #0000009e;
+  box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -webkit-box-shadow: 1px 4px 7px 3px var(--color-shadow);
+  -moz-box-shadow: 1px 4px 7px 3px var(--color-shadow);
+
 }

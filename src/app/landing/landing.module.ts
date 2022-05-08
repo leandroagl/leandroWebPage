@@ -8,6 +8,10 @@ import { SharedModule } from '../shared/shared.module';
 import { TrabajosComponent } from './trabajos/trabajos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ExperienceComponent } from './about/experience/experience.component';
+import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { CardComponent } from './trabajos/card/card.component';
+import { CardSkillsComponent } from './skills/card-skills/card-skills.component';
 
 
 @NgModule({
@@ -18,11 +22,16 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     SkillsComponent,
     TrabajosComponent,
     ContactoComponent,
+    ExperienceComponent,
+    CardComponent,
+    CardSkillsComponent,
   ],
   imports: [
     CommonModule,
     SharedModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    NgbNavModule,
+    NgbAlertModule
   ]
 })
 export class LandingModule { }

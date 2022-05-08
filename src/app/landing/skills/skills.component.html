@@ -1,39 +1,24 @@
-<div class="grid-layout">
+<div class="grid-layout" fxLayout="column" fxLayoutAlign="center center">
+  <div class="header">
+    <app-divider [sectionHeader]="'Skills'"></app-divider>
+  </div>
 
+  <div
+    class="datos-perfil"
+    fxLayout="column"
+    fxLayoutAlign="space-evenly center"
+  >
+    <!-- Trío de iconos con texto -->
+    <app-perfil-icon-text
+      [iconClass1]="'bi bi-code-slash'"
+      [iconClass2]="'bi bi-hdd-rack'"
+      [iconClass3]="'bi bi-person-check-fill'"
+      [iconText1]="'Txto de prueba 1'"
+      [iconText2]="'Texto de prueba 2 asdnajnd asjdnjksda emskne'"
+      [iconText3]="'Ksmjrkkd msjkjfje jsmakjf'"
+      ></app-perfil-icon-text>
 
-    <div class="header-skills">
-      <p>Skills</p>
-      <hr />
-    </div>
-
-    <img src="../../../assets/img/logos/image 4.png" class="winserver" />
-    <img src="../../../assets/img/logos/image 5.png" class="exchange" />
-    <img src="../../../assets/img/logos/image 6.png" class="hyperv" />
-    <img src="../../../assets/img/logos/image 7.png" class="veeam" />
-
-    <img src="../../../assets/img/logos/image 8.png" class="vmware" />
-    <img src="../../../assets/img/logos/image 9.png" class="prtg" />
-    <img src="../../../assets/img/logos/image 11.png" class="mikrotik" />
-    <img src="../../../assets/img/logos/image 12.png" class="qnap" />
-
-    <img src="../../../assets/img/logos/image 13.png" class="pfsense" />
-    <img src="../../../assets/img/logos/image 14.png" class="office" />
-    <img src="../../../assets/img/logos/image 15.png" class="gsuite" />
-    <img src="../../../assets/img/logos/image 17.png" class="angular" />
-
-    <img src="../../../assets/img/logos/image 18.png" class="js" />
-    <img src="../../../assets/img/logos/image 19.png" class="ts" />
-    <img src="../../../assets/img/logos/image 20.png" class="html" />
-    <img src="../../../assets/img/logos/image 21.png" class="css" />
-
-    <img src="../../../assets/img/logos/image 22.png" class="node" />
-    <img src="../../../assets/img/logos/image 23.png" class="firebase" />
-    <img src="../../../assets/img/logos/image 24.png" class="mongo" />
-    <img src="../../../assets/img/logos/image 25.png" class="azure" />
-
-    <img src="../../../assets/img/logos/image 26.png" class="git" />
-    <img src="../../../assets/img/logos/image 27.png" class="linux" />
-    <img src="../../../assets/img/logos/image 28.png" class="bootstrap" />
-    <img src="../../../assets/img/logos/image 29.png" class="postman" />
-
+    <!-- CardNav con logotipos de tecnologías -->
+    <app-card-skills></app-card-skills>
+  </div>
 </div>

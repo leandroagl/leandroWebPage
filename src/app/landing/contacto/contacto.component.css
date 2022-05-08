@@ -1,56 +1,30 @@
 .grid-layout {
   display: grid;
   grid-template-columns: 100%;
-
+  background: #222222;
+  color: rgba(255, 255, 255, 0.684);
+  font-family: "Nunito";
 }
 
-.contacto-header {
-  margin-left: 6rem;
-  margin-right: 6rem;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 2rem;
-  letter-spacing: 0.4px;
 
-  color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
-}
-
-.header {
-  margin-left: 3rem;
-}
-
-hr {
-  border: 1px solid #959595;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
-  transform: rotate(-0.08deg);
-}
-
-.contacto-form {
-  width: 20rem;
-  justify-self: center;
-  align-self: center;
-  margin-top: 3rem;
-}
-
-.linkedin {
-  margin-right: 15px;
+.iconos {
+  font-size: 30px;
 }
 
 .git {
-  margin-left: 15px;
+  color: black;
 }
 
-.facebook {
-
+.wp {
+  color: rgb(75, 158, 86);
 }
 
-.btnForm {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 9px;
-
-  border-radius: 3.2px;
+.datos {
+  color: rgba(255, 255, 255, 0.684);
+  font-size: 13px;
+  margin-right: 80px;
 }
+
+
+
+

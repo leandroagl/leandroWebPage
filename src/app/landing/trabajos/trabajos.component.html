@@ -1,78 +1,75 @@
 <div class="grid-layout">
+  <!-- Header -->
+  <div class="header" fxLayout="column" fxLayoutAlign="center center">
+    <app-divider [sectionHeader]="'Trabajos y prácticas'"></app-divider>
 
-  <div class="trabajos-header">
-    <p class="header" fxLayoutAlign="end">Trabajos</p>
-    <hr>
+    <p class="header-text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum
+      expedita, aut ex nesciunt obcaecati placeat assumenda iusto illo cum minus
+      voluptate provident. Quidem veritatis excepturi numquam facere? Itaque,
+      id!
+    </p>
   </div>
 
+  <!-- Cards Group por filas-->
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center"
+    fxLayout.sm="column"
+    fxLayoutAlign.sm="center center"
+    fxLayout.xs="column"
+    fxLayoutAlign.xs="center center"
+    fxLayoutGap="5%"
+  >
+    <app-card
+      [cardTitle]="'Tarjeta1'"
+      [cardText]="'Esta seria la tarjeta 1'"
+    ></app-card>
 
+    <app-card
+      [cardTitle]="'Tarjeta 2'"
+      [cardText]="'Por aca tendriamos la 2'"
+    ></app-card>
+  </div>
 
-    <!-- Card AuthApp -->
-    <div class="authApp">
-      <div class="card" style="width: 18rem; height: 27rem;">
-        <img
-          src="../../../assets/img/apps/authApp.PNG"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Auth App</h5>
-          <p class="card-text">
-            Aplicación de autenticación y registro desarrollada en Angular y
-            utilizando MongoDB
-          </p>
-          <div class="btnAuthApp">
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center"
+    fxLayout.sm="column"
+    fxLayoutAlign.sm="center center"
+    fxLayout.xs="column"
+    fxLayoutAlign.xs="center center"
+    fxLayoutGap="5%"
+  >
+    <app-card
+      [cardTitle]="'Tarjeta4'"
+      [cardText]="'Esta seria la tarjeta 4'"
+    ></app-card>
 
-            <a
-              href="https://angualr-auth-frontback.herokuapp.com/auth/login"
-              target="_blank"
-              class="btn btn-primary"
-              >Ir a la App!</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
+    <app-card
+      [cardTitle]="'Tarjeta 5'"
+      [cardText]="'Por aca tendriamos la 5'"
+    ></app-card>
+  </div>
 
+  <!-- <div
+     fxLayout="row"
+  fxLayoutAlign="center"
+  fxLayout.sm="column"
+  fxLayoutAlign.sm="center center"
+  fxLayout.xs="column"
+  fxLayoutAlign.xs="center center"
+  fxLayoutGap="5%"
+    >
+      <app-card
+        [cardTitle]="'Tarjeta 7'"
+        [cardText]="'Esta seria la tarjeta 7'"
+      ></app-card>
 
-    <!-- Card AdminTech -->
-    <div class="adminTech">
-      <div class="card" style="width: 18rem">
-        <img
-          src="../../../assets/img/apps/adminTech.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">AdminTech</h5>
-          <p class="card-text">
-            Es una aplicacion que se encuentra en desarollo, diseñada para ser
-            utilizada en un ambiente de mesa de ayuda, cuenta con una agenda de contactos,
-            acceso a base de conocimientos, carga de remisiones por técnico y acceso
-            a servicios web que la empresa administre.
-          </p>
+      <app-card
+        [cardTitle]="'Tarjeta 8'"
+        [cardText]="'Por aca tendriamos la 8'"
+      ></app-card>
 
-          <div class="button" fxLayout="row">
-            <a
-              href="#"
-              target="_blank"
-              class="btn btn-primary disabled"
-              >Ir a la App!</a
-            >
-            <!-- GitIcon -->
-            <div class="git-icon">
-              <a
-                href="#"
-                target="_blank"
-                ><img src="../../../assets/img/logos/image 26.png" class="git-img"></a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
+    </div> -->
 </div>
