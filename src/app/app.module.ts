@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingModule } from './landing/landing.module';
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { LandingModule } from './landing/landing.module';
     NgbModule,
     AppRoutingModule,
     LandingModule,
+    AnimateOnScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 .card {
   border-radius: 15px;
-
+  font-family: "Nunito";
   font-size: medium;
   width: 250px;
   height: 250px;
@@ -9,8 +9,7 @@
 
 .card-img-overlay {
   --opacidad-negro: 0.6;
-
-   background:  linear-gradient(
+  background: linear-gradient(
       rgba(0, 0, 0, var(--opacidad-negro)),
       rgba(0, 0, 0, var(--opacidad-negro))
     ),
@@ -20,7 +19,6 @@
   background-attachment: scroll;
   background-size: cover;
   border-radius: 15px;
-
 }
 
 .card-img {
