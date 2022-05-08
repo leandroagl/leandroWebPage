@@ -28,7 +28,11 @@
   align-self: center;
   justify-self: center;
 }
-
+.size-90 {
+  width: 60px;
+  align-self: center;
+  justify-self: center;
+}
 
 .ts {
   width: 45px;
