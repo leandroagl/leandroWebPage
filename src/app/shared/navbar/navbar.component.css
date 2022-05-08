@@ -4,9 +4,12 @@
   box-shadow: 3px 3px 3px;
 }
 
+.marginR-10 {
+  margin-right:10px;
+}
+
 .nav-item .nav-link {
-  margin-left: 40px;
-  margin-right: 20px;
+
   color: rgb(255 255 255);
   font-size: 16px;
 }

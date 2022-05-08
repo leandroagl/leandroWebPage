@@ -1,25 +1,54 @@
-<div fxLayoutAlign="end center" class="animate__animated animate__fadeInUp">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" (click)="toAbout()">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" (click)="toSkills()">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" (click)="toTrabajos()">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" (click)="toContacto()">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Descargar CV</a>
-          </li>
-        </ul>
+<div class="animate__animated animate__fadeInUp">
+  <div class="row m-2">
+    <div class="col" fxFlex fxHide="'true'" fxShow.xs="'true'">
+      <div ngbDropdown class="d-inline-block">
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="dropdownBasic1"
+          ngbDropdownToggle
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button ngbDropdownItem (click)="navToSection('home')"><i class="bi bi-house-door"></i></button>
+          <button ngbDropdownItem (click)="navToSection('about')">About</button>
+          <button ngbDropdownItem (click)="navToSection('skills')">Skills</button>
+          <button ngbDropdownItem (click)="navToSection('apps')">Apps</button>
+          <button ngbDropdownItem (click)="navToSection('contacto')">Contacto</button>
+          <!-- ToDo -->
+          <!-- <button ngbDropdownItem>Descargar CV</button> -->
+        </div>
       </div>
     </div>
-  </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <ul
+        class="navbar-nav"
+        fxLayout="row"
+        fxHide.xs="'true'"
+        fxLayoutGap="20px"
+      >
+        <li class="nav-item">
+          <a class="nav-link" (click)="navToSection('home')"><i class="bi bi-house-door"></i></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="navToSection('about')">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="navToSection('skills')">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="navToSection('apps')">Apps</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="navToSection('contacto')">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </div>
