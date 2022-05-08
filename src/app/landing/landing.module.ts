@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SkillsComponent } from './skills/skills.component';
 import { PresentacionNameComponent } from './presentacion-name/presentacion-name.component';
@@ -12,6 +12,8 @@ import { ExperienceComponent } from './about/experience/experience.component';
 import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CardComponent } from './trabajos/card/card.component';
 import { CardSkillsComponent } from './skills/card-skills/card-skills.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
+
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { CardSkillsComponent } from './skills/card-skills/card-skills.component'
     SharedModule,
     FlexLayoutModule,
     NgbNavModule,
-    NgbAlertModule
-  ]
+    NgbAlertModule,
+    NgxSpinnerModule
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class LandingModule { }

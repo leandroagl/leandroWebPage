@@ -20,7 +20,8 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     NgbModule,
     AppRoutingModule,
     LandingModule,
-    AnimateOnScrollModule.forRoot()
+    AnimateOnScrollModule.forRoot(),
+
   ],
   providers: [],
   bootstrap: [AppComponent]
