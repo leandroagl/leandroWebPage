@@ -101,6 +101,9 @@ THE SOFTWARE.
 ng2-animate-on-scroll
 MIT
 
+ngx-spinner
+MIT
+
 rxjs
 Apache-2.0
                                Apache License
