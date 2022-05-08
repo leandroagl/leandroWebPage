@@ -1,5 +1,4 @@
 <div class="grid-layout">
-
   <div class="header" fxLayout="column" fxLayoutAlign="center center">
     <app-divider [sectionHeader]="'Trabajos y prácticas'"></app-divider>
 
@@ -12,52 +11,53 @@
   </div>
 
   <!-- Cards Group -->
-  <div fxLayout="column" fxLayoutAlign="space-between none" class="cards-group">
 
-    <div fxLayout="row" fxLayoutAlign="space-evenly center" >
-      <!-- <div class="card bg-dark card-img" >
+  <div
+  fxLayout="row"
+  fxLayoutAlign="space-evenly center"
+  fxLayout.sm="column"
+  fxLayoutAlign.sm="space-evenly center"
+  fxLayout.xs="column"
+  fxLayoutAlign.xs="space-evenly center"
+  >
+    <app-card
+      [cardTitle]="'Tarjeta1'"
+      [cardText]="'Esta seria la tarjeta 1'"
+    ></app-card>
 
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
-          </div>
-        </div>
-      </div> -->
-      <app-card
-        [cardTitle]="'Tarjeta1'"
-        [cardText]="'Esta seria la tarjeta 1'"
-      ></app-card>
+    <app-card
+      [cardTitle]="'Tarjeta 2'"
+      [cardText]="'Por aca tendriamos la 2'"
+    ></app-card>
+  </div>
 
-      <app-card
-        [cardTitle]="'Tarjeta 2'"
-        [cardText]="'Por aca tendriamos la 2'"
-      ></app-card>
+  <div
+  fxLayout="row"
+  fxLayoutAlign="space-evenly center"
+  fxLayout.sm="column"
+  fxLayoutAlign.sm="space-evenly center"
+  fxLayout.xs="column"
+  fxLayoutAlign.xs="space-evenly center"
+  >
+    <app-card
+      [cardTitle]="'Tarjeta4'"
+      [cardText]="'Esta seria la tarjeta 4'"
+    ></app-card>
 
-      <app-card
-        [cardTitle]="'Tarjeta3'"
-        [cardText]="'Por aca tendriamos la 3'"
-      ></app-card>
-    </div>
+    <app-card
+      [cardTitle]="'Tarjeta 5'"
+      [cardText]="'Por aca tendriamos la 5'"
+    ></app-card>
+  </div>
 
-    <div fxLayout="row" fxLayoutAlign="space-evenly center">
-      <app-card
-        [cardTitle]="'Tarjeta4'"
-        [cardText]="'Esta seria la tarjeta 4'"
-      ></app-card>
-
-      <app-card
-        [cardTitle]="'Tarjeta 5'"
-        [cardText]="'Por aca tendriamos la 5'"
-      ></app-card>
-
-      <app-card
-        [cardTitle]="'Tarjeta 6'"
-        [cardText]="'Por aca tendriamos la 6'"
-      ></app-card>
-    </div>
-
-    <div fxLayout="row" fxLayoutAlign="space-evenly center">
+  <!-- <div
+      fxLayout="row"
+      fxLayout.sm="column"
+      fxLayout.xs="column"
+      fxLayoutAlign="space-evenly center"
+      fxLayoutAlign.sm="space-evenly center"
+      fxLayoutAlign.xs="space-evenly center"
+    >
       <app-card
         [cardTitle]="'Tarjeta 7'"
         [cardText]="'Esta seria la tarjeta 7'"
@@ -68,11 +68,5 @@
         [cardText]="'Por aca tendriamos la 8'"
       ></app-card>
 
-      <app-card
-        [cardTitle]="'Tarjeta 9'"
-        [cardText]="'Por aca tendriamos la 9'"
-      ></app-card>
-    </div>
-
-  </div>
+    </div> -->
 </div>
