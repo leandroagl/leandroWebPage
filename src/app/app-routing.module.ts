@@ -5,6 +5,7 @@ import { LandingModule } from './landing/landing.module';
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
+  { path: '**', redirectTo: '' }
 
 ];
 
