@@ -1,4 +1,5 @@
 <div class="grid-layout">
+  <!-- Header -->
   <div class="header" fxLayout="column" fxLayoutAlign="center center">
     <app-divider [sectionHeader]="'Trabajos y prácticas'"></app-divider>
 
@@ -10,16 +11,15 @@
     </p>
   </div>
 
-  <!-- Cards Group -->
-
+  <!-- Cards Group por filas-->
   <div
-  fxLayout="row"
-  fxLayoutAlign="center"
-  fxLayout.sm="column"
-  fxLayoutAlign.sm="center center"
-  fxLayout.xs="column"
-  fxLayoutAlign.xs="center center"
-  fxLayoutGap="5%"
+    fxLayout="row"
+    fxLayoutAlign="center"
+    fxLayout.sm="column"
+    fxLayoutAlign.sm="center center"
+    fxLayout.xs="column"
+    fxLayoutAlign.xs="center center"
+    fxLayoutGap="5%"
   >
     <app-card
       [cardTitle]="'Tarjeta1'"
@@ -33,13 +33,13 @@
   </div>
 
   <div
-  fxLayout="row"
-  fxLayoutAlign="center"
-  fxLayout.sm="column"
-  fxLayoutAlign.sm="center center"
-  fxLayout.xs="column"
-  fxLayoutAlign.xs="center center"
-  fxLayoutGap="5%"
+    fxLayout="row"
+    fxLayoutAlign="center"
+    fxLayout.sm="column"
+    fxLayoutAlign.sm="center center"
+    fxLayout.xs="column"
+    fxLayoutAlign.xs="center center"
+    fxLayoutGap="5%"
   >
     <app-card
       [cardTitle]="'Tarjeta4'"
@@ -52,15 +52,14 @@
     ></app-card>
   </div>
 
-
-
   <!-- <div
-      fxLayout="row"
-      fxLayout.sm="column"
-      fxLayout.xs="column"
-      fxLayoutAlign="space-evenly center"
-      fxLayoutAlign.sm="space-evenly center"
-      fxLayoutAlign.xs="space-evenly center"
+     fxLayout="row"
+  fxLayoutAlign="center"
+  fxLayout.sm="column"
+  fxLayoutAlign.sm="center center"
+  fxLayout.xs="column"
+  fxLayoutAlign.xs="center center"
+  fxLayoutGap="5%"
     >
       <app-card
         [cardTitle]="'Tarjeta 7'"
