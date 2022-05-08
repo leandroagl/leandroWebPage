@@ -1,5 +1,5 @@
-<div class="grid-layout">
-  <div class="header" fxLayout="row" fxLayoutAlign="center center">
+<div class="grid-layout" fxLayout="column">
+  <div class="header">
     <app-divider [sectionHeader]="'Acerca de mi'"></app-divider>
   </div>
 
@@ -15,9 +15,9 @@
     ></app-perfil-icon-text>
 
     <!-- Foto -->
-    <div fxLayout="column" fxLayoutAlign="center center">
+    <div fxLayout="column wrap" fxLayoutAlign="center center">
       <img src="./assets/img/perfil/perfil.jpg" class="foto" />
-      <div class="text-about">
+      <div class="text-about" fxLayout="column">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab,
           alias nam itaque debitis dolorem dolores nobis aliquid quia porro eum

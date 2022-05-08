@@ -1,23 +1,26 @@
-<div
-  fxLayout="row"
-  fxLayoutAlign="space-evenly center"
-  fxLayoutAlign.sm="center center"
-  fxLayoutAlign.xs="center center"
-  fxLayout.sm="column"
-  fxLayout.xs="column"
->
-  <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
-    <i  class='${{iconClass1}} icon-size'></i>
-    <p>{{ iconText1 }}</p>
+
+  <div
+    fxLayout="row"
+    fxLayoutAlign="space-evenly center"
+    fxLayoutAlign.sm="center center"
+    fxLayoutAlign.xs="center center"
+    fxLayout.sm="column wrap"
+    fxLayout.xs="column wrap"
+  >
+    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+      <i  class='${{iconClass1}} icon-size'></i>
+      <p>{{ iconText1 }}</p>
+    </div>
+
+    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+      <i class='${{ iconClass2 }} icon-size'></i>
+      <p>{{ iconText2 }}</p>
+    </div>
+
+    <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
+      <i class='${{ iconClass3 }} icon-size'></i>
+      <p>{{ iconText3 }}</p>
+    </div>
   </div>
 
-  <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
-    <i class='${{ iconClass2 }} icon-size'></i>
-    <p>{{ iconText2 }}</p>
-  </div>
 
-  <div class="perfil" fxLayout="column" fxLayoutAlign="center center">
-    <i class='${{ iconClass3 }} icon-size'></i>
-    <p>{{ iconText3 }}</p>
-  </div>
-</div>

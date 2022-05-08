@@ -27,7 +27,7 @@
       rgba(0, 0, 0, var(--opacidad-negro)),
       rgba(0, 0, 0, var(--opacidad-negro))
     ), linear-gradient(to top, rgba(0, 0, 0, 0.912), rgba(118, 182, 251, 0.357)),
-    url("./assets/img/background/background33.jpg");
+    url("../../assets/img/background/background33.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
