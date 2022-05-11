@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-landing',
@@ -8,12 +7,10 @@ import { NgxSpinnerService } from 'ngx-spinner';
 })
 export class LandingComponent implements OnInit {
 
-  constructor(private spinner: NgxSpinnerService) { }
+  constructor() { }
 
 
   ngOnInit(): void {
-
-
 
 
   }

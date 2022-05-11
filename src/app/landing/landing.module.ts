@@ -34,7 +34,6 @@ import { CardSkillsComponent } from './skills/card-skills/card-skills.component'
     FlexLayoutModule,
     NgbNavModule,
     NgbAlertModule,
-
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
