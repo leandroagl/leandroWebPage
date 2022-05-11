@@ -13,12 +13,7 @@ export class LandingComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.spinner.show(
-    );
 
-    setTimeout(() => {
-      this.spinner.hide();
-    }, 3000)
 
 
   }

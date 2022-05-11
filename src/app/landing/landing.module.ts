@@ -12,7 +12,7 @@ import { ExperienceComponent } from './about/experience/experience.component';
 import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CardComponent } from './trabajos/card/card.component';
 import { CardSkillsComponent } from './skills/card-skills/card-skills.component';
-import { NgxSpinnerModule } from 'ngx-spinner';
+// import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 
@@ -34,7 +34,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     FlexLayoutModule,
     NgbNavModule,
     NgbAlertModule,
-    NgxSpinnerModule
+
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

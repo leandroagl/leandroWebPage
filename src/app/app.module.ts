@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { LandingModule } from './landing/landing.module';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
+import { NgxSpinnerModule } from 'ngx-spinner';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +23,7 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     AppRoutingModule,
     LandingModule,
     AnimateOnScrollModule.forRoot(),
+    NgxSpinnerModule
 
   ],
   providers: [],
