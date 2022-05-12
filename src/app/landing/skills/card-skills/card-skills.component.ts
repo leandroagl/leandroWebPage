@@ -8,34 +8,36 @@ import { Component, OnInit } from '@angular/core';
 
 export class CardSkillsComponent implements OnInit {
 
+  routeToAssets: string = ""
+
   // Rutas a los assets
-  angular: string = "./assets/angular.png";
-  azure: string = "./assets/azure.png";
-  bootstrap: string = "./assets/bootstrap.png";
-  css: string = "./assets/css.png";
-  exchange: string = "./assets/exchange.png";
-  firebase: string = "./assets/firebase.png";
-  git2: string = "./assets/git2.png";
-  gsuite: string = "./assets/gsuite.png";
-  html: string = "./assets/html.png";
-  hyperv: string = "./assets/hyperv.png";
-  javascript: string = "./assets/javascript.png";
-  linux: string = "./assets/linux.png";
-  material: string = "./assets/material.png";
-  mikrotik: string = "./assets/mikrotik.png";
-  mongo: string = "./assets/mongo.png";
-  node: string = "./assets/node.png";
-  office365: string = "./assets/office365.png";
-  pfsense: string = "./assets/pfsense.png";
-  postman: string = "./assets/postman.png";
-  prtg: string = "./assets/prtg.png";
-  qnap: string = "./assets/qnap.png";
-  sharepoint: string = "./assets/sharepoint.png";
-  typescript: string = "./assets/typescript.png";
-  ubiquiti: string = "./assets/ubiquiti.png";
-  veeam: string = "./assets/veeam.png";
-  vmware: string = "./assets/vmware.png";
-  winserver: string = "./assets/winserver.png";
+  angular: string = this.routeToAssets + "./assets/img/logos/angular.png";
+  azure: string = this.routeToAssets + "./assets/img/logos/azure.png";
+  bootstrap: string = this.routeToAssets + "./assets/img/logos/bootstrap.png";
+  css: string = this.routeToAssets + "./assets/img/logos/css.png";
+  exchange: string = this.routeToAssets + "./assets/img/logos/exchange.png";
+  firebase: string = this.routeToAssets + "./assets/img/logos/firebase.png";
+  git2: string = this.routeToAssets + "./assets/img/logos/git2.png";
+  gsuite: string = this.routeToAssets + "./assets/img/logos/gsuite.png";
+  html: string = this.routeToAssets + "./assets/img/logos/html.png";
+  hyperv: string = this.routeToAssets + "./assets/img/logos/hyperv.png";
+  javascript: string = this.routeToAssets + "./assets/img/logos/javascript.png";
+  linux: string = this.routeToAssets + "./assets/img/logos/linux.png";
+  material: string = this.routeToAssets + "./assets/img/logos/material.png";
+  mikrotik: string = this.routeToAssets + "./assets/img/logos/mikrotik.png";
+  mongo: string = this.routeToAssets + "./assets/img/logos/mongo.png";
+  node: string = this.routeToAssets + "./assets/img/logos/node.png";
+  office365: string = this.routeToAssets + "./assets/img/logos/office365.png";
+  pfsense: string = this.routeToAssets + "./assets/img/logos/pfsense.png";
+  postman: string = this.routeToAssets + "./assets/img/logos/postman.png";
+  prtg: string = this.routeToAssets + "./assets/img/logos/prtg.png";
+  qnap: string = this.routeToAssets + "./assets/img/logos/qnap.png";
+  sharepoint: string = this.routeToAssets + "./assets/img/logos/sharepoint.png";
+  typescript: string = this.routeToAssets + "./assets/img/logos/typescript.png";
+  ubiquiti: string = this.routeToAssets + "./assets/img/logos/ubiquiti.png";
+  veeam: string = this.routeToAssets + "./assets/img/logos/veeam.png";
+  vmware: string = this.routeToAssets + "./assets/img/logos/vmware.png";
+  winserver: string = this.routeToAssets + "./assets/img/logos/winserver.png";
 
   constructor() { }
 
