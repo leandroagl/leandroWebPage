@@ -16,22 +16,22 @@
           <div fxLayout.xs="column" fxLayoutAlign="space-evenly center">
             <div fxLayout="row" fxLayoutAlign="space-around center">
               <img
-                src="../../../../assets/img/logos/image17.png"
+                [src]="angular"
                 class="icon size-55"
               />
               <img
-                src="../../../../assets/img/logos/image20.png"
+                [src]="html"
                 class="icon size-60"
               />
             </div>
 
             <div fxLayout="row" fxLayoutAlign="space-around center">
               <img
-                src="../../../../assets/img/logos/image21.png"
+                [src]="css"
                 class="icon size-55"
               />
               <img
-                src="../../../../assets/img/logos/image18.png"
+                [src]="javascript"
                 class="icon size-55"
               />
             </div>
@@ -41,22 +41,22 @@
           <div fxLayout.xs="column" fxLayoutAlign="space-evenly center">
             <div fxLayout="row" fxLayoutAlign="space-around center">
               <img
-                src="../../../../assets/img/logos/image22.png"
+                [src]="node"
                 class="icon"
               />
               <img
-                src="../../../../assets/img/logos/image19.png"
+                [src]="typescript"
                 class="icon ts"
               />
             </div>
 
             <div fxLayout="row" fxLayoutAlign="space-around center">
               <img
-                src="../../../../assets/img/logos/image23.png"
+                [src]="firebase"
                 class="icon"
               />
               <img
-                src="../../../../assets/img/logos/image24.png"
+                [src]="mongo"
                 class="icon"
               />
             </div>
@@ -66,12 +66,12 @@
           <div fxLayout.xs="column" fxLayoutAlign="space-around center">
             <div fxLayout="row" fxLayoutAlign="space-around center">
               <img
-                src="../../../../assets/img/logos/image26.png"
+                [src]="git2"
                 class="icon git"
               />
               <img
-                src="../../../../assets/img/logos/image28.png"
-                class="icon bootstrap"
+              [src]="bootstrap"
+              class="bootstrap"
               />
 
             </div>
@@ -79,11 +79,11 @@
             <div fxLayout="row" fxLayoutAlign="space-around center">
 
               <img
-                src="../../../../assets/img/logos/image29.png"
+                [src]="postman"
                 class="icon size-60"
               />
               <img
-                src="../../../../assets/img/logos/image32.png"
+                [src]="material"
                 class="icon size-55"
               />
 
@@ -103,33 +103,33 @@
           <div fxLayout.xs="column" fxLayoutAlign="space-around center">
             <div fxLayout="row" fxLayoutAlign="space-evenly center">
               <img
-                src="../../../../assets/img/logos/image5.png"
+                [src]="exchange"
                 class="icon exchange"
               />
               <img
-                src="../../../../assets/img/logos/image4.png"
+                [src]="winserver"
                 class="icon winserver"
               />
             </div>
             <div fxLayout="row" fxLayoutAlign="space-evenly center">
-              <img src="../../../../assets/img/logos/image6.png" class="icon" />
-              <img src="../../../../assets/img/logos/image7.png" class="icon" />
+              <img [src]="hyperv" class="icon" />
+              <img [src]="veeam" class="icon" />
             </div>
           </div>
 
           <!-- Fila2 -->
           <div fxLayout.xs="column" fxLayoutAlign="space-around center">
             <div fxLayout="row" fxLayoutAlign="space-evenly center">
-              <img src="../../../../assets/img/logos/image8.png" class="icon" />
-              <img src="../../../../assets/img/logos/image9.png" class="icon" />
+              <img [src]="vmware" class="icon" />
+              <img [src]="prtg" class="icon" />
             </div>
             <div fxLayout="row" fxLayoutAlign="space-evenly center">
               <img
-                src="../../../../assets/img/logos/image11.png"
+                [src]="mikrotik"
                 class="icon"
               />
               <img
-                src="../../../../assets/img/logos/image12.png"
+                [src]="qnap"
                 class="icon"
               />
             </div>
@@ -139,21 +139,21 @@
           <div fxLayout.xs="column" fxLayoutAlign="center">
             <div fxLayout="row" fxLayoutAlign="space-evenly center">
               <img
-                src="../../../../assets/img/logos/image27.png"
+                [src]="linux"
                 class="icon linux"
               />
               <img
-                src="../../../../assets/img/logos/image13.png"
+                [src]="pfsense"
                 class="icon"
               />
             </div>
             <div fxLayout="row" fxLayoutAlign="space-evenly center">
               <img
-                src="../../../../assets/img/logos/image14.png"
+                [src]="office365"
                 class="icon office"
               />
               <img
-                src="../../../../assets/img/logos/image15.png"
+                [src]="gsuite"
                 class="icon"
               />
             </div>
@@ -163,12 +163,12 @@
         <!-- Fila4 -->
         <div fxLayout.xs="column" fxLayoutAlign="space-evenly center">
           <div fxLayout="row" fxLayoutAlign="space-evenly center">
-            <img src="../../../../assets/img/logos/image25.png" class="icon" />
-            <img src="../../../../assets/img/logos/image30.png" class="icon" />
+            <img [src]="azure" class="icon" />
+            <img [src]="ubiquiti" class="icon" />
           </div>
 
           <div fxLayout="row" fxLayoutAlign="start">
-            <img src="../../../../assets/img/logos/image31.png" class="icon" />
+            <img [src]="sharepoint" class="icon" />
           </div>
         </div>
       </ng-template>
