@@ -3,9 +3,12 @@
 
   width: 100%;
   height: 100%;
-
   color: white;
   background: linear-gradient(to bottom, rgba(68, 92, 117, 0.053), #0F344C);
+}
+
+.margin {
+  margin-top: 20rem;
 }
 
 .datos {
