@@ -10,6 +10,14 @@
   font-family: "Nunito";
 }
 
+.grid-layout {
+  display: grid;
+  width: auto;
+  weight: auto;
+  justify-self: center;
+  align-self: center;
+}
+
 .icon {
   width: 100px;
   margin-right: 40px;
