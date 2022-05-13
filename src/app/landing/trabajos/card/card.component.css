@@ -5,6 +5,16 @@
   width: 250px;
   height: 250px;
   color: #ffffff;
+  cursor: pointer;
+
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+.zoom {
+  transition: transform .1s;
 }
 
 .card-img-overlay {
