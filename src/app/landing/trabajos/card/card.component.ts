@@ -12,24 +12,17 @@ export class CardComponent implements OnInit {
   @Input() backgroundUrl: string = '';
   @Input() cardTitle: string ='';
   @Input() cardText: string = '';
-  @Input() navigateLink: string = '';
+  @Input() url: string = '';
+  @Input() imgName: string = '';
+  assetsRoute: string = '../../../.';
 
 
-  constructor( private router: Router ) {
+  constructor( ) {
   }
-
 
   ngOnInit(): void {
-
   }
 
-  navigateTo() {
-    this.router.navigateByUrl('').then(
-      result => {
-        window.location.href = this.navigateLink;
-      }
-    )
-  }
 
 
 }

@@ -1,10 +1,14 @@
 
 
-    <div class="card bg-dark card-img zoom" (click)="navigateTo()">
-    <!-- img -->
-    <div class="card-img-overlay">
-      <h5 class="card-title">{{cardTitle}}</h5>
-      <p class="card-text">{{cardText}}</p>
-    </div>
+    <div class="card bg-dark card-img zoom" >
+      <img src="{{ assetsRoute + './assets/img/apps/' + imgName}}" class="card-img">
+
+      <a target="_blank" href="{{url}}">
+        <div class="card-img-overlay">
+          <h5 class="card-title">{{cardTitle}}</h5>
+          <p class="card-text">{{cardText}}</p>
+        </div>
+
+      </a>
   </div>
 

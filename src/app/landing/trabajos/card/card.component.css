@@ -1,3 +1,7 @@
+a {
+  color: white;
+}
+
 .card {
   border-radius: 15px;
   font-family: "Nunito";
@@ -8,6 +12,7 @@
   cursor: pointer;
 
 }
+
 
 .zoom:hover {
   transform: scale(1.05);

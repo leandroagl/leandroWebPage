@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class CardSkillsComponent implements OnInit {
 
-  routeToAssets: string = "../../../."
+  routeToAssets: string = ""
 
   // Rutas a los assets
   angular: string = this.routeToAssets + "./assets/img/logos/angular.png";
