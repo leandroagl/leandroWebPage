@@ -17,7 +17,7 @@ export class CardComponent implements OnInit {
 
   @Input() viewLenguaje: boolean = false;
 
-  assetsRoute: string = '../../../.';
+  assetsRoute: string = '';
   folderApps: string = './assets/img/apps/';
   folderLogos: string = './assets/img/logos/';
 
