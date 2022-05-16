@@ -1,4 +1,5 @@
 <div class="card bg-dark zoom cardstyle">
+  <a target="_blank" href="{{ url }}">
   <img
     src="{{ assetsRoute + folderApps + imgName }}"
     class="card-img"
@@ -13,9 +14,8 @@
       />
     </div>
 
-    <a target="_blank" href="{{ url }}">
       <h5 class="card-title">{{ cardTitle }}</h5>
       <p class="card-text font-sm">{{ cardText }}</p>
-    </a>
-  </div>
+    </div>
+  </a>
 </div>
