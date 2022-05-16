@@ -13,7 +13,7 @@ export class CardComponent implements OnInit {
   @Input() cardText: string = '';
   @Input() url: string = '';
   @Input() imgName: string = '';
-  @Input() lenguaje: string = '';
+  @Input() lenguajes: string [] = [] ;
 
   @Input() viewLenguaje: boolean = false;
 

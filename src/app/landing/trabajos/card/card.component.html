@@ -7,10 +7,12 @@
   <div class="card-img-overlay">
     <div *ngIf="viewLenguaje" fxLayout="row" fxLayoutAlign="end start">
       <img
+        *ngFor="let lenguaje of lenguajes"
         src="{{ assetsRoute + folderLogos + lenguaje + '.png' }}"
-        class="icon"
+        class="icon mr-2"
       />
     </div>
+
     <a target="_blank" href="{{ url }}">
       <h5 class="card-title">{{ cardTitle }}</h5>
       <p class="card-text font-sm">{{ cardText }}</p>
