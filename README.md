@@ -1,5 +1,9 @@
 # Portfolio WebPage
 
+NOTA PARA EL BUILD:
+Antes de hacer el build de producción hay que limpiar las variables `` assetsRoute `` en `` card.component.ts `` y `` routeToAssets `` en `` card-skills.component.ts ``
+
+
 Proyecto inicial de portfolio para mi presentación personal como desarrollador de software.
 
 `` npm install `` para instalar dependencias
