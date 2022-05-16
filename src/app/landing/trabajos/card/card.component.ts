@@ -1,5 +1,4 @@
 import { Component, Input, OnInit, } from '@angular/core';
-import { RouteConfigLoadEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -14,8 +13,13 @@ export class CardComponent implements OnInit {
   @Input() cardText: string = '';
   @Input() url: string = '';
   @Input() imgName: string = '';
-  assetsRoute: string = '../../../.';
+  @Input() lenguaje: string = '';
 
+  @Input() viewLenguaje: boolean = false;
+
+  assetsRoute: string = '../../../.';
+  folderApps: string = './assets/img/apps/';
+  folderLogos: string = './assets/img/logos/';
 
   constructor( ) {
   }

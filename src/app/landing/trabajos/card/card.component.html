@@ -1,14 +1,19 @@
+<div class="card bg-dark zoom cardstyle">
+  <img
+    src="{{ assetsRoute + folderApps + imgName }}"
+    class="card-img"
+  />
 
-
-    <div class="card bg-dark zoom cardstyle" >
-      <img src="{{ assetsRoute + './assets/img/apps/' + imgName}}" class="card-img">
-
-      <a target="_blank" href="{{url}}">
-        <div class="card-img-overlay">
-          <h5 class="card-title">{{cardTitle}}</h5>
-          <p class="card-text font-sm">{{cardText}}</p>
-        </div>
-
-      </a>
+  <div class="card-img-overlay">
+    <div *ngIf="viewLenguaje" fxLayout="row" fxLayoutAlign="end start">
+      <img
+        src="{{ assetsRoute + folderLogos + lenguaje + '.png' }}"
+        class="icon"
+      />
+    </div>
+    <a target="_blank" href="{{ url }}">
+      <h5 class="card-title">{{ cardTitle }}</h5>
+      <p class="card-text font-sm">{{ cardText }}</p>
+    </a>
   </div>
-
+</div>

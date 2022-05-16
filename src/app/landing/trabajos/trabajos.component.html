@@ -21,16 +21,24 @@
   >
     <app-card
       [cardTitle]="'ToDoList'"
-      [cardText]="'Organizador de tareas hecho en WebPack a partir de un template'"
+      [cardText]="
+        'Organizador de tareas hecho en WebPack a partir de un template'
+      "
       [url]="'https://leandroagl.github.io/Javascript-listado-de-tareas/'"
       [imgName]="'listadoDeTareas.PNG'"
+      [viewLenguaje]="true"
+      [lenguaje]="'javascript'"
     ></app-card>
 
     <app-card
       [cardTitle]="'AuthApp'"
-      [cardText]="'Autenticación de usuarios en Angular en conjunto con MongoDB'"
+      [cardText]="
+        'Autenticación de usuarios en Angular en conjunto con MongoDB'
+      "
       [url]="'https://angualr-auth-frontback.herokuapp.com/auth/login'"
       [imgName]="'authApp.PNG'"
+      [viewLenguaje]="true"
+      [lenguaje]="'angular'"
     ></app-card>
   </div>
 
@@ -42,10 +50,11 @@
     fxLayoutGap="5%"
   >
     <app-card
-    [cardTitle]="'AdminTech'"
-    [cardText]="'Para uso en entornos HelpDesk, se encuentra en desarrollo'"
-    [url]="'https://github.com/leandroagl/AdminTech'"
-
+      [cardTitle]="'AdminTech'"
+      [cardText]="'Para uso en entornos HelpDesk, se encuentra en desarrollo'"
+      [url]="'https://github.com/leandroagl/AdminTech'"
+      [viewLenguaje]="true"
+      [lenguaje]="'angular'"
     ></app-card>
 
     <app-card
