@@ -51,15 +51,21 @@
   >
     <app-card
       [cardTitle]="'AdminTech'"
-      [cardText]="'Para uso en entornos HelpDesk, se encuentra en desarrollo'"
+      [cardText]="'Para uso en entornos HelpDesk, utilizando firebase como base de datos, validación de usuarios por Google o Microsoft, dashboard, agenda de contactos, base de conocimientos, control personal de productividad.'"
       [url]="'https://github.com/leandroagl/AdminTech'"
       [viewLenguaje]="true"
-      [lenguaje]="'angular'"
+      [lenguajes]="['angular', 'node', 'firebase']"
     ></app-card>
 
     <app-card
-      [cardTitle]="'Tarjeta 5'"
-      [cardText]="'Por aca tendriamos la 5'"
+      [cardTitle]="'PaisesApp'"
+      [cardText]="
+        'Información detallada de paises con distintos filtros y vistas realizando consultas http a la API https://restcountries.com'
+      "
+      [url]="'https://leandroagl.github.io/Angular-03-paisesApp/'"
+      [imgName]="'paisesApp.PNG'"
+      [viewLenguaje]="true"
+      [lenguajes]="['angular']"
     ></app-card>
   </div>
 
