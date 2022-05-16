@@ -12,4 +12,5 @@ export class TrabajosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
 }

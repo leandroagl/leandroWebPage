@@ -10,15 +10,23 @@ export class CardComponent implements OnInit {
   @Input() src : string = '';
   @Input() backgroundUrl: string = '';
   @Input() cardTitle: string ='';
-  @Input() cardText: string = ''
+  @Input() cardText: string = '';
+  @Input() url: string = '';
+  @Input() imgName: string = '';
+  @Input() lenguajes: string [] = [] ;
 
+  @Input() viewLenguaje: boolean = false;
 
-  constructor() {
+  assetsRoute: string = '../../../.';
+  folderApps: string = './assets/img/apps/';
+  folderLogos: string = './assets/img/logos/';
+
+  constructor( ) {
   }
-
 
   ngOnInit(): void {
-
   }
+
+
 
 }

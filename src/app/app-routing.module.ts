@@ -5,11 +5,12 @@ import { LandingModule } from './landing/landing.module';
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
+  { path: '**', redirectTo: '' }
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), LandingModule],
+  imports: [RouterModule.forRoot(routes, { useHash: true }), LandingModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

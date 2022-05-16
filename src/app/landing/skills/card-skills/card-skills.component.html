@@ -1,111 +1,178 @@
 <div class="card" fxLayout="column">
-  <!-- NavBar -->
-  <ul
-    ngbNav
-    #nav="ngbNav"
-    [destroyOnHide]="false"
-    class="nav nav-pills m-2"
-    fxLayoutAlign="center"
-  >
-    <!-- Tab Dev -->
-    <li [ngbNavItem]="1" [destroyOnHide]="true">
-      <a ngbNavLink>Developer</a>
-      <ng-template ngbNavContent>
-        <div fxLayout="column" fxLayoutAlign="center" class="dev">
-          <div fxLayoutAlign="space-between center">
-            <img
-              src="../../../../assets/img/logos/image 17.png"
-              class="icon size-55"
-            />
-            <img
-              src="../../../../assets/img/logos/image 20.png"
-              class="icon size-60"
-            />
-            <img
-              src="../../../../assets/img/logos/image 21.png"
-              class="icon size-55"
-            />
-            <img
-              src="../../../../assets/img/logos/image 18.png"
-              class="icon size-55"
-            />
+  <div class="container mb-3">
+    <!-- NavBar -->
+    <ul
+      ngbNav
+      #nav="ngbNav"
+      [destroyOnHide]="false"
+      class="nav nav-pills m-2"
+      fxLayoutAlign="center"
+    >
+      <!-- Tab Dev -->
+      <li [ngbNavItem]="1" [destroyOnHide]="true">
+        <a ngbNavLink>Developer</a>
+        <ng-template ngbNavContent>
+          <div fxLayout.xs="column" fxLayoutAlign.xs="center" class="mt-4">
+            <!-- Fila1 -->
+            <div fxLayout.xs="column" fxLayoutAlign="space-evenly center">
+              <div fxLayout="row" fxLayoutAlign="space-around center">
+                <img
+                  [src]="angular"
+                  class="icon size-55"
+                />
+                <img
+                  [src]="html"
+                  class="icon size-60"
+                />
+              </div>
+
+              <div fxLayout="row" fxLayoutAlign="space-around center">
+                <img
+                  [src]="css"
+                  class="icon size-55"
+                />
+                <img
+                  [src]="javascript"
+                  class="icon size-55"
+                />
+              </div>
+            </div>
+
+            <!-- Fila2 -->
+            <div fxLayout.xs="column" fxLayoutAlign="space-evenly center">
+              <div fxLayout="row" fxLayoutAlign="space-around center">
+                <img
+                  [src]="node"
+                  class="icon"
+                />
+                <img
+                  [src]="typescript"
+                  class="icon ts"
+                />
+              </div>
+
+              <div fxLayout="row" fxLayoutAlign="space-around center">
+                <img
+                  [src]="firebase"
+                  class="icon"
+                />
+                <img
+                  [src]="mongo"
+                  class="icon"
+                />
+              </div>
+            </div>
+
+            <!-- Fila3 -->
+            <div fxLayout.xs="column"  fxLayoutAlign="space-around center">
+              <div fxLayout="row" fxLayoutAlign="space-around center">
+                <img
+                  [src]="git2"
+                  class="icon git"
+                />
+                <img
+                [src]="bootstrap"
+                class="bootstrap"
+                />
+              </div>
+
+              <div fxLayout="row" fxLayoutAlign="space-around center">
+                <img
+                  [src]="postman"
+                  class="icon size-60"
+                />
+                <img
+                  [src]="material"
+                  class="icon size-55"
+                />
+
+              </div>
+            </div>
           </div>
-          <div fxLayoutAlign="space-between center">
-            <img src="../../../../assets/img/logos/image 22.png" class="icon" />
-            <img
-              src="../../../../assets/img/logos/image 19.png"
-              class="icon ts"
-            />
-            <img src="../../../../assets/img/logos/image 23.png" class="icon" />
-            <img src="../../../../assets/img/logos/image 24.png" class="icon" />
-          </div>
-          <div fxLayoutAlign="space-between center">
-            <img
-              src="../../../../assets/img/logos/image 26.png"
-              class="icon git"
-            />
-            <img
-              src="../../../../assets/img/logos/image 28.png"
-              class="icon bootstrap"
-            />
-            <img
-              src="../../../../assets/img/logos/image 29.png"
-              class="icon size-60"
-            />
-            <img
-              src="../../../../assets/img/logos/image 32.png"
-              class="icon size-55"
-            />
-          </div>
-        </div>
-      </ng-template>
-    </li>
-    <!-- Tab Infra -->
-    <li [ngbNavItem]="2" [destroyOnHide]="true">
-      <a ngbNavLink>IT Manager</a>
-      <ng-template ngbNavContent>
-        <div fxLayout="column" fxLayoutAlign="center">
-          <div fxLayoutAlign="space-between center">
-            <img
-              src="../../../assets/img/logos/image5.png"
-              class="icon exchange"
-            />
-            <img
-              src="../../../assets/img/logos/image4.png"
-              class="icon winserver"
-            />
-            <img src="../../../assets/img/logos/image 6.png" class="icon" />
-            <img src="../../../assets/img/logos/image 7.png" class="icon" />
+        </ng-template>
+      </li>
+      <!-- Tab Infra -->
+      <li [ngbNavItem]="2" [destroyOnHide]="true">
+        <a ngbNavLink>IT Manager</a>
+        <ng-template ngbNavContent>
+          <div fxLayout.xs="column" fxLayoutAlign.xs="center" class="mt-4">
+            <!-- Fila1 -->
+            <div fxLayout.xs="column" fxLayoutAlign="space-around center">
+              <div fxLayout="row" fxLayoutAlign="space-evenly center">
+                <img
+                  [src]="exchange"
+                  class="icon exchange"
+                />
+                <img
+                  [src]="winserver"
+                  class="icon winserver"
+                />
+              </div>
+              <div fxLayout="row" fxLayoutAlign="space-evenly center">
+                <img [src]="hyperv" class="icon" />
+                <img [src]="veeam" class="icon" />
+              </div>
+            </div>
+
+            <!-- Fila2 -->
+            <div fxLayout.xs="column" fxLayoutAlign="space-around center">
+              <div fxLayout="row" fxLayoutAlign="space-evenly center">
+                <img [src]="vmware" class="icon" />
+                <img [src]="prtg" class="icon" />
+              </div>
+              <div fxLayout="row" fxLayoutAlign="space-evenly center">
+                <img
+                  [src]="mikrotik"
+                  class="icon"
+                />
+                <img
+                  [src]="qnap"
+                  class="icon"
+                />
+              </div>
+            </div>
+
+            <!-- Fila3 -->
+            <div fxLayout.xs="column" fxLayoutAlign="center">
+              <div fxLayout="row" fxLayoutAlign="space-evenly center">
+                <img
+                  [src]="linux"
+                  class="icon linux"
+                />
+                <img
+                  [src]="pfsense"
+                  class="icon"
+                />
+              </div>
+              <div fxLayout="row" fxLayoutAlign="space-evenly center">
+                <img
+                  [src]="office365"
+                  class="icon office"
+                />
+                <img
+                  [src]="gsuite"
+                  class="icon"
+                />
+              </div>
+            </div>
           </div>
 
-          <div fxLayoutAlign="space-between center">
-            <img src="../../../assets/img/logos/image 8.png" class="icon" />
-            <img src="../../../assets/img/logos/image 9.png" class="icon" />
-            <img src="../../../assets/img/logos/image 11.png" class="icon" />
-            <img src="../../../assets/img/logos/image 12.png" class="icon" />
-          </div>
+          <!-- Fila4 -->
+          <div fxLayout.xs="column" fxLayoutAlign="space-evenly center">
+            <div fxLayout="row" fxLayoutAlign="space-evenly center">
+              <img [src]="azure" class="icon" />
+              <img [src]="ubiquiti" class="icon" />
+            </div>
 
-          <div fxLayoutAlign="space-between center">
-            <img
-              src="../../../assets/img/logos/image 27.png"
-              class="icon linux"
-            />
-            <img src="../../../assets/img/logos/image 13.png" class="icon" />
-            <img
-              src="../../../assets/img/logos/image 14.png"
-              class="icon office"
-            />
-            <img src="../../../assets/img/logos/image 15.png" class="icon" />
+            <div fxLayout="row" fxLayoutAlign="start">
+              <img [src]="sharepoint" class="icon" />
+            </div>
           </div>
-        </div>
+        </ng-template>
+      </li>
+    </ul>
+    <div [ngbNavOutlet]="nav" class="mt-2"></div>
 
-        <div fxLayoutAlign="space-between center">
-          <img src="../../../assets/img/logos/image 25.png" class="icon" />
-          <img src="../../../assets/img/logos/image 30.png" class="icon" />
-          <img src="../../../assets/img/logos/image 31.png" class="icon" />
-        </div>
-      </ng-template>
-    </li>
-  </ul>
-  <div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+  </div>
 </div>

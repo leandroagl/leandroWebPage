@@ -1,37 +1,42 @@
-<div class="grid-layout">
-  <div class="header" fxLayout="row" fxLayoutAlign="center center">
-    <app-divider [sectionHeader]="'Acerca de mi'"></app-divider>
-  </div>
+<div class="grid-layout" fxLayout="column">
 
-  <div class="datos" fxLayout="column" fxLayoutAlign="space-evenly center">
-    <!-- Iconos de perfil -->
-    <app-perfil-icon-text
-      [iconClass1]="'bi bi-person-badge'"
-      [iconClass2]="'bi bi-geo-alt'"
-      [iconClass3]="'bi bi-boombox'"
-      [iconText1]="'Texto de prueba1'"
-      [iconText2]="'Texto de prueba2'"
-      [iconText3]="'Texto de prueba3'"
-    ></app-perfil-icon-text>
+  <div class="margin">
 
-    <!-- Foto -->
-    <div fxLayout="column" fxLayoutAlign="center center">
-      <img src="../../../assets/img/perfil/perfil.jpg" class="foto" />
-      <div class="text-about">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab,
-          alias nam itaque debitis dolorem dolores nobis aliquid quia porro eum
-          eius eaque, distinctio perferendis doloremque voluptatem provident
-          culpa impedit.
-        </p>
-      </div>
+    <div class="header">
+      <app-divider [sectionHeader]="'Acerca de mi'"></app-divider>
     </div>
 
-    <!-- Experiencias -->
-  </div>
+    <div class="datos" fxLayout="column" fxLayoutAlign="space-evenly center">
+      <!-- Iconos de perfil -->
+      <app-perfil-icon-text
+        [iconClass1]="'bi bi-person-badge'"
+        [iconClass2]="'bi bi-geo-alt'"
+        [iconClass3]="'bi bi-boombox'"
+        [iconText1]="'Texto de prueba1'"
+        [iconText2]="'Texto de prueba2'"
+        [iconText3]="'Texto de prueba3'"
+      ></app-perfil-icon-text>
 
-  <div class="exp">
-    <app-experience ></app-experience>
+      <!-- Foto -->
+      <div fxLayout="column wrap"   fxLayoutAlign="center center">
+        <img src="./assets/img/perfil/perfil.jpg" class="foto" />
+        <div class="text-about" fxFlex.lt-sm="10" fxLayout="column">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab,
+            alias nam itaque debitis dolorem dolores nobis aliquid quia porro eum
+            eius eaque, distinctio perferendis doloremque voluptatem provident
+            culpa impedit.
+          </p>
+        </div>
+      </div>
+
+      <!-- Experiencias -->
+    </div>
+
+    <div class="exp">
+      <app-experience ></app-experience>
+    </div>
+
   </div>
 </div>
 

@@ -1,4 +1,4 @@
-<div class="grid-layout">
+<div class="grid-layout" fxLayout.xs="column" fxLayoutGap.xs="5%">
   <!-- Header -->
   <div class="header" fxLayout="column" fxLayoutAlign="center center">
     <app-divider [sectionHeader]="'Trabajos y prácticas'"></app-divider>
@@ -15,40 +15,57 @@
   <div
     fxLayout="row"
     fxLayoutAlign="center"
-    fxLayout.sm="column"
-    fxLayoutAlign.sm="center center"
     fxLayout.xs="column"
     fxLayoutAlign.xs="center center"
     fxLayoutGap="5%"
   >
     <app-card
-      [cardTitle]="'Tarjeta1'"
-      [cardText]="'Esta seria la tarjeta 1'"
+      [cardTitle]="'ToDoList'"
+      [cardText]="
+        'Organizador de tareas hecho en WebPack a partir de un template'
+      "
+      [url]="'https://leandroagl.github.io/Javascript-listado-de-tareas/'"
+      [imgName]="'listadoDeTareas.PNG'"
+      [viewLenguaje]="true"
+      [lenguajes]="['javascript']"
     ></app-card>
 
     <app-card
-      [cardTitle]="'Tarjeta 2'"
-      [cardText]="'Por aca tendriamos la 2'"
+      [cardTitle]="'AuthApp'"
+      [cardText]="
+        'Autenticación de usuarios en Angular en conjunto con MongoDB'
+      "
+      [url]="'https://angualr-auth-frontback.herokuapp.com/auth/login'"
+      [imgName]="'authApp.PNG'"
+      [viewLenguaje]="true"
+      [lenguajes]="['angular', 'node', 'mongo']"
     ></app-card>
   </div>
 
   <div
     fxLayout="row"
     fxLayoutAlign="center"
-    fxLayout.sm="column"
-    fxLayoutAlign.sm="center center"
     fxLayout.xs="column"
     fxLayoutAlign.xs="center center"
     fxLayoutGap="5%"
   >
     <app-card
-      [cardTitle]="'Tarjeta4'"
-      [cardText]="'Esta seria la tarjeta 4'"
+      [cardTitle]="'AdminTech'"
+      [cardText]="'Para uso en entornos HelpDesk, utilizando firebase como base de datos, validación de usuarios por Google o Microsoft, dashboard, agenda de contactos, base de conocimientos, control personal de productividad.'"
+      [url]="'https://github.com/leandroagl/AdminTech'"
+      [viewLenguaje]="true"
+      [lenguajes]="['angular', 'node', 'firebase']"
     ></app-card>
 
     <app-card
-      [cardTitle]="'Tarjeta 5'"
-      [cardText]="'Por aca tendriamos la 5'"
+      [cardTitle]="'PaisesApp'"
+      [cardText]="
+        'Información detallada de paises con distintos filtros y vistas realizando consultas http a la API https://restcountries.com'
+      "
+      [url]="'https://leandroagl.github.io/Angular-03-paisesApp/'"
+      [imgName]="'paisesApp.PNG'"
+      [viewLenguaje]="true"
+      [lenguajes]="['angular']"
     ></app-card>
   </div>
 

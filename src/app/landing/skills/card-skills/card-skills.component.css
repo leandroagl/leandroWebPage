@@ -1,5 +1,6 @@
 .card {
   max-width: 43rem;
+  min-width: 10rem;
   margin-top: 7rem;
   margin-bottom: 80px;
   width: auto;
@@ -7,6 +8,14 @@
   border-radius: 10px;
   background: #bfced9;
   font-family: "Nunito";
+}
+
+.grid-layout {
+  display: grid;
+  width: auto;
+  weight: auto;
+  justify-self: center;
+  align-self: center;
 }
 
 .icon {
@@ -27,7 +36,11 @@
   align-self: center;
   justify-self: center;
 }
-
+.size-90 {
+  width: 60px;
+  align-self: center;
+  justify-self: center;
+}
 
 .ts {
   width: 45px;

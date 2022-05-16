@@ -1,10 +1,21 @@
+<div class="card bg-dark zoom cardstyle">
+  <a target="_blank" href="{{ url }}">
+  <img
+    src="{{ assetsRoute + folderApps + imgName }}"
+    class="card-img"
+  />
 
-
-  <div class="card bg-dark card-img">
-    <!-- img -->
-    <div class="card-img-overlay">
-      <h5 class="card-title">{{cardTitle}}</h5>
-      <p class="card-text">{{cardText}}</p>
+  <div class="card-img-overlay">
+    <div *ngIf="viewLenguaje" fxLayout="row" fxLayoutAlign="end start">
+      <img
+        *ngFor="let lenguaje of lenguajes"
+        src="{{ assetsRoute + folderLogos + lenguaje + '.png' }}"
+        class="icon mr-2"
+      />
     </div>
-  </div>
 
+      <h5 class="card-title">{{ cardTitle }}</h5>
+      <p class="card-text font-sm">{{ cardText }}</p>
+    </div>
+  </a>
+</div>
