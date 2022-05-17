@@ -13,46 +13,72 @@
 
   <!-- Cards Group por filas-->
   <div
-    fxLayout="row"
-    fxLayoutAlign="center"
-    fxLayout.xs="column"
-    fxLayoutAlign.xs="center center"
-    fxLayoutGap="5%"
+  fxLayout="row"
+  fxLayoutAlign="center"
+  fxLayout.xs="column"
+  fxLayout.sm="column"
+  fxLayoutAlign.xs="center center"
+  fxLayoutAlign.sm="center center"
+  fxLayoutGap="5%"
+  fxLayoutGap.sm="5%"
   >
-    <app-card
-      [cardTitle]="'ToDoList'"
-      [cardText]="
-        'Organizador de tareas hecho en WebPack a partir de un template'
-      "
-      [url]="'https://leandroagl.github.io/Javascript-listado-de-tareas/'"
-      [imgName]="'listadoDeTareas.PNG'"
-      [viewLenguaje]="true"
-      [lenguajes]="['javascript']"
-    ></app-card>
 
-    <app-card
-      [cardTitle]="'AuthApp'"
-      [cardText]="
-        'Autenticación de usuarios en Angular en conjunto con MongoDB'
-      "
-      [url]="'https://angualr-auth-frontback.herokuapp.com/auth/login'"
-      [imgName]="'authApp.PNG'"
-      [viewLenguaje]="true"
-      [lenguajes]="['angular', 'node', 'mongo']"
-    ></app-card>
+      <app-card
+        [cardTitle]="'ToDoList'"
+        [cardText]="
+          'Organizador para tareas que deben ser completadas, realizada en template TodoMVC.'
+        "
+        [url]="'https://leandroagl.github.io/Javascript-listado-de-tareas/'"
+        [imgName]="'listadoDeTareas.PNG'"
+        [viewLenguaje]="true"
+        [lenguajes]="['javascript']"
+      ></app-card>
+
+
+
+     <app-card
+       [cardTitle]="'AuthApp'"
+       [cardText]="
+         'Autenticación de usuarios en Angular en conjunto con MongoDB.'
+       "
+       [url]="'https://angualr-auth-frontback.herokuapp.com/auth/login'"
+       [imgName]="'authApp.PNG'"
+       [viewLenguaje]="true"
+       [lenguajes]="['angular', 'node', 'mongo']"
+     ></app-card>
+
+      <app-card
+        [cardTitle]="'BlackJack'"
+        [cardText]="
+          'Juego de BlackJack para pasar los ratos libres en puro vanilla Javascript'
+        "
+        [url]="'https://leandroagl.github.io/Javascript-blackjack/'"
+        [imgName]="'blackJackApp.PNG'"
+        [viewLenguaje]="true"
+        [lenguajes]="['javascript']"
+      ></app-card>
+
+
+
   </div>
 
   <div
     fxLayout="row"
     fxLayoutAlign="center"
     fxLayout.xs="column"
+    fxLayout.sm="column"
     fxLayoutAlign.xs="center center"
+    fxLayoutAlign.sm="center center"
     fxLayoutGap="5%"
+    fxLayoutGap.sm="5%"
   >
     <app-card
       [cardTitle]="'AdminTech'"
-      [cardText]="'Para uso en entornos HelpDesk, utilizando firebase como base de datos, validación de usuarios por Google o Microsoft, dashboard, agenda de contactos, base de conocimientos, control personal de productividad.'"
+      [cardText]="
+        'Para uso en entornos HelpDesk, utilizando firebase como base de datos, validación de usuarios por Google o Microsoft, dashboard, agenda de contactos, base de conocimientos, control personal de productividad.'
+      "
       [url]="'https://github.com/leandroagl/AdminTech'"
+      [imgName]="'adminTech.png'"
       [viewLenguaje]="true"
       [lenguajes]="['angular', 'node', 'firebase']"
     ></app-card>
@@ -64,6 +90,17 @@
       "
       [url]="'https://leandroagl.github.io/Angular-03-paisesApp/'"
       [imgName]="'paisesApp.PNG'"
+      [viewLenguaje]="true"
+      [lenguajes]="['angular']"
+    ></app-card>
+
+    <app-card
+      [cardTitle]="'GifsApp'"
+      [cardText]="
+        'Para divertirse un poco y buscar gifs animados, manteniendo un historial de búsquedas. Haciendo consultas http a la API ...'
+      "
+      [url]="'https://leandroagl.github.io/Angular-02-gifsApp/'"
+      [imgName]="'gifsApp.PNG'"
       [viewLenguaje]="true"
       [lenguajes]="['angular']"
     ></app-card>
